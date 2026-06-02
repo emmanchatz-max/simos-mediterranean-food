@@ -5,6 +5,12 @@ import {notFound} from 'next/navigation';
 import '@/styles/globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'SIMOS Mediterranean Food | Premium Food Export',
+  description: 'Specialists in exporting high-quality Greek and Mediterranean food products across Europe.',
+};
 
 export function generateStaticParams() {
   return locales.map((locale) => ({locale}));
