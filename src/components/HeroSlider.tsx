@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from '@/navigation';
+import Image from 'next/image';
 
 const slides = [
   {
@@ -44,66 +45,84 @@ const HeroSlider = () => {
   const prevSlide = () => setCurrent((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={current}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1.5, ease: 'easeInOut' }}
-          className="absolute inset-0"
-        >
-          {/* Background Image with Zoom Effect */}
+    <section className="relative h-screen w-full overflow-hidden bg-black">
+      {/* Background Images Layer */}
+      <div className="absolute inset-0 z-0">
+        <AnimatePresence initial={false}>
           <motion.div
-            initial={{ scale: 1.1 }}
-            animate={{ scale: 1 }}
-            transition={{ duration: 10, ease: 'linear' }}
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: `url(${slides[current].image})` }}
-          />
-          
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/40" />
+            key={current}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.8, ease: 'easeInOut' }}
+            className="absolute inset-0"
+          >
+            <motion.div
+              initial={{ scale: 1.1 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 8, ease: 'linear' }}
+              className="relative h-full w-full"
+            >
+              <Image
+                src={slides[current].image}
+                alt={t(`${slides[current].key}.title`)}
+                fill
+                priority
+                className="object-cover"
+                sizes="100vw"
+                quality={85}
+              />
+            </motion.div>
+            {/* Overlay moved inside the animated div to ensure it fades with the image */}
+            <div className="absolute inset-0 bg-black/40 z-10" />
+          </motion.div>
+        </AnimatePresence>
+      </div>
 
-          {/* Content */}
-          <div className="absolute inset-0 flex items-center justify-center text-center px-6">
-            <div className="max-w-4xl">
-              <motion.h1
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight"
-              >
+      {/* Preload Next Image */}
+      <div className="hidden">
+        <Image
+          src={slides[(current + 1) % slides.length].image}
+          alt="preload"
+          width={1}
+          height={1}
+          priority
+        />
+      </div>
+
+      {/* Content Layer - Fixed position to avoid re-rendering animations on slide change if possible, 
+          but here we want the text to animate too, so we keep it within the motion div or animate separately */}
+      <div className="relative h-full w-full flex items-center justify-center text-center px-6 z-20 pointer-events-none">
+        <div className="max-w-4xl pointer-events-auto">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={current}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.5 }}
+            >
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-6 leading-tight">
                 {t(`${slides[current].key}.title`)}
-              </motion.h1>
-              <motion.p
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.7, duration: 0.8 }}
-                className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto font-light tracking-wide"
-              >
+              </h1>
+              <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto font-light tracking-wide">
                 {t(`${slides[current].key}.subtitle`)}
-              </motion.p>
-              <motion.div
-                initial={{ y: 30, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.9, duration: 0.8 }}
-              >
+              </p>
+              <div>
                 <Link
                   href="/products"
                   className="inline-block bg-primary hover:bg-primary-light text-white px-8 py-4 rounded-full transition-all duration-300 text-sm uppercase tracking-widest font-medium"
                 >
                   {t(`${slides[current].key}.cta`)}
                 </Link>
-              </motion.div>
-            </div>
-          </div>
-        </motion.div>
-      </AnimatePresence>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </div>
 
       {/* Navigation Arrows */}
-      <div className="absolute bottom-10 right-10 flex space-x-4 z-20">
+      <div className="absolute bottom-10 right-10 flex space-x-4 z-30">
         <button
           onClick={prevSlide}
           className="p-3 border border-white/20 text-white hover:bg-white hover:text-primary transition-all rounded-full"
@@ -119,7 +138,7 @@ const HeroSlider = () => {
       </div>
 
       {/* Slide Indicators */}
-      <div className="absolute bottom-10 left-10 flex space-x-3 z-20">
+      <div className="absolute bottom-10 left-10 flex space-x-3 z-30">
         {slides.map((_, index) => (
           <button
             key={index}
