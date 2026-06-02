@@ -1,0 +1,70 @@
+{
+  "Index": {
+    "title": "Especialistas en exportación de alimentos griegos y mediterráneos",
+    "description": "Feta premium, halloumi, yogur griego y productos mediterráneos para el comercio minorista y la restauración en Europa.",
+    "cta": "Explorar productos"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "products": "Productos",
+    "markets": "Mercados de exportación",
+    "privateLabel": "Marca blanca",
+    "logistics": "Logística",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "slide1": {
+      "title": "Especialistas en exportación de alimentos griegos y mediterráneos",
+      "subtitle": "Feta premium, halloumi, yogur griego y productos mediterráneos para el comercio minorista y la restauración en Europa.",
+      "cta": "Explorar productos"
+    },
+    "slide2": {
+      "title": "Sabor auténtico. Suministro confiable.",
+      "subtitle": "Suministramos a mayoristas, minoristas y socios de servicios de alimentación en toda Europa.",
+      "cta": "Ver gama de productos"
+    },
+    "slide3": {
+      "title": "Sirviendo a Europa desde 2008",
+      "subtitle": "Logística de exportación confiable para Francia, Italia, España y Bélgica.",
+      "cta": "Contactar a nuestro equipo"
+    },
+    "slide4": {
+      "title": "Soluciones a medida para retail y food service",
+      "subtitle": "Soluciones de marca blanca y abastecimiento de alimentos mediterráneos.",
+      "cta": "Solicitar catálogo"
+    }
+  },
+  "About": {
+    "preview": {
+      "title": "Nuestra herencia mediterránea",
+      "text1": "SIMOS Mediterranean Food se especializa en la selección y exportación de los mejores productos griegos y mediterráneos. Con más de 15 años de experiencia, conectamos a los productores tradicionales con el mercado europeo.",
+      "text2": "Nuestro compromiso con la calidad y la autenticidad nos ha convertido en un socio de confianza para mayoristas y minoristas en Francia, Italia, España y Bélgica."
+    }
+  },
+  "Categories": {
+    "title": "Nuestras categorías de productos",
+    "feta": "Queso Feta",
+    "halloumi": "Halloumi",
+    "yogurt": "Yogur Griego",
+    "olives": "Aceitunas",
+    "dips": "Salsas Mediterráneas",
+    "vineLeaves": "Hojas de Parra"
+  },
+  "Markets": {
+    "title": "Mercados de exportación",
+    "france": "Francia",
+    "italy": "Italia",
+    "spain": "España",
+    "belgium": "Bélgica",
+    "description": "Brindamos experiencia local y cadenas de suministro confiables en los principales mercados europeos."
+  },
+  "Contact": {
+    "title": "Contáctenos",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar consulta",
+    "info": "Información de contacto"
+  }
+}

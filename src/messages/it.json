@@ -1,0 +1,70 @@
+{
+  "Index": {
+    "title": "Specialisti nell'esportazione di prodotti alimentari greci e mediterranei",
+    "description": "Feta premium, halloumi, yogurt greco e prodotti mediterranei per il commercio al dettaglio e la ristorazione in Europa.",
+    "cta": "Esplora i prodotti"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "Chi siamo",
+    "products": "Prodotti",
+    "markets": "Mercati di esportazione",
+    "privateLabel": "Marchio del distributore",
+    "logistics": "Logistica",
+    "contact": "Contatti"
+  },
+  "Hero": {
+    "slide1": {
+      "title": "Specialisti nell'esportazione di prodotti alimentari greci e mediterranei",
+      "subtitle": "Feta premium, halloumi, yogurt greco e prodotti mediterranei per il commercio al dettaglio e la ristorazione in Europa.",
+      "cta": "Esplora i prodotti"
+    },
+    "slide2": {
+      "title": "Gusto autentico. Fornitura affidabile.",
+      "subtitle": "Fornitore di grossisti, dettaglianti e partner della ristorazione in tutta Europa.",
+      "cta": "Visualizza la gamma prodotti"
+    },
+    "slide3": {
+      "title": "Al servizio dell'Europa dal 2008",
+      "subtitle": "Logistica di esportazione affidabile per Francia, Italia, Spagna e Belgio.",
+      "cta": "Contatta il nostro team"
+    },
+    "slide4": {
+      "title": "Soluzioni su misura per vendita al dettaglio e ristorazione",
+      "subtitle": "Soluzioni di marchio del distributore e approvvigionamento di prodotti alimentari mediterranei.",
+      "cta": "Richiedi il catalogo"
+    }
+  },
+  "About": {
+    "preview": {
+      "title": "La nostra eredità mediterranea",
+      "text1": "SIMOS Mediterranean Food è specializzata nella selezione ed esportazione dei migliori prodotti greci e mediterranei. Con oltre 15 anni di esperienza, colleghiamo i produttori tradizionali con il mercato europeo.",
+      "text2": "Il nostro impegno per la qualità e l'autenticità ci ha reso un partner di fiducia per grossisti e dettaglianti in Francia, Italia, Spagna e Belgio."
+    }
+  },
+  "Categories": {
+    "title": "Le nostre categorie di prodotti",
+    "feta": "Formaggio Feta",
+    "halloumi": "Halloumi",
+    "yogurt": "Yogurt Greco",
+    "olives": "Olive",
+    "dips": "Salse Mediterranee",
+    "vineLeaves": "Foglie di Vite"
+  },
+  "Markets": {
+    "title": "Mercati di esportazione",
+    "france": "Francia",
+    "italy": "Italia",
+    "spain": "Spagna",
+    "belgium": "Belgio",
+    "description": "Forniamo competenza locale e catene di fornitura affidabili nei principali mercati europei."
+  },
+  "Contact": {
+    "title": "Contattaci",
+    "name": "Nome completo",
+    "email": "Indirizzo e-mail",
+    "message": "Messaggio",
+    "submit": "Invia richiesta",
+    "info": "Informazioni di contatto"
+  }
+}

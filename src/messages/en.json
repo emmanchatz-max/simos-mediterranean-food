@@ -1,0 +1,70 @@
+{
+  "Index": {
+    "title": "Greek & Mediterranean Food Export Specialists",
+    "description": "Premium Feta, Halloumi, Greek Yogurt and Mediterranean Products for European Retail & Food Service.",
+    "cta": "Explore Products"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "markets": "Export Markets",
+    "privateLabel": "Private Label",
+    "logistics": "Logistics",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "slide1": {
+      "title": "Greek & Mediterranean Food Export Specialists",
+      "subtitle": "Premium Feta, Halloumi, Greek Yogurt and Mediterranean Products for European Retail & Food Service.",
+      "cta": "Explore Products"
+    },
+    "slide2": {
+      "title": "Authentic Taste. Reliable Supply.",
+      "subtitle": "Supplying wholesalers, retailers and food service partners across Europe.",
+      "cta": "View Product Range"
+    },
+    "slide3": {
+      "title": "Serving Europe Since 2008",
+      "subtitle": "Reliable export logistics for France, Italy, Spain and Belgium.",
+      "cta": "Contact Our Team"
+    },
+    "slide4": {
+      "title": "Tailored Solutions For Retail & Food Service",
+      "subtitle": "Private label and Mediterranean food sourcing solutions.",
+      "cta": "Request Catalogue"
+    }
+  },
+  "About": {
+    "preview": {
+      "title": "Our Mediterranean Heritage",
+      "text1": "SIMOS Mediterranean Food specializes in the selection and export of the finest Greek and Mediterranean products. With over 15 years of experience, we connect traditional producers with the European market.",
+      "text2": "Our commitment to quality and authenticity has made us a trusted partner for wholesalers and retailers across France, Italy, Spain, and Belgium."
+    }
+  },
+  "Categories": {
+    "title": "Our Product Categories",
+    "feta": "Feta Cheese",
+    "halloumi": "Halloumi",
+    "yogurt": "Greek Yogurt",
+    "olives": "Olives",
+    "dips": "Mediterranean Dips",
+    "vineLeaves": "Vine Leaves"
+  },
+  "Markets": {
+    "title": "Export Markets",
+    "france": "France",
+    "italy": "Italy",
+    "spain": "Spain",
+    "belgium": "Belgium",
+    "description": "We provide localized expertise and reliable supply chains across key European markets."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Message",
+    "submit": "Send Inquiry",
+    "info": "Contact Information"
+  }
+}
