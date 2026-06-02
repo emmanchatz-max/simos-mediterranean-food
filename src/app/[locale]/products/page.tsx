@@ -1,10 +1,9 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { Link } from '@/navigation';
-import { ArrowRight, Package, Truck, Info } from 'lucide-react';
+import { ArrowRight, Package } from 'lucide-react';
+import { MotionDiv } from '@/components/ClientMotion';
 
 const products = [
   {
@@ -37,7 +36,10 @@ const products = [
   },
 ];
 
-const ProductsPage = () => {
+export default function ProductsPage({params: {locale}}: {params: {locale: string}}) {
+  setRequestLocale(locale);
+  const t = useTranslations('Categories');
+
   return (
     <div className="pt-20">
       <section className="bg-secondary py-24">
@@ -53,7 +55,7 @@ const ProductsPage = () => {
         <div className="container mx-auto px-6 space-y-32">
           {products.map((product, index) => (
             <div key={product.id} id={product.id} className={`flex flex-col lg:flex-row gap-16 items-center ${index % 2 !== 0 ? 'lg:flex-row-reverse' : ''}`}>
-              <motion.div 
+              <MotionDiv 
                 initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -66,9 +68,9 @@ const ProductsPage = () => {
                   fill
                   className="object-cover"
                 />
-              </motion.div>
+              </MotionDiv>
 
-              <motion.div 
+              <MotionDiv 
                 initial={{ opacity: 0, x: index % 2 === 0 ? 50 : -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -103,13 +105,11 @@ const ProductsPage = () => {
                     <ArrowRight size={18} />
                   </Link>
                 </div>
-              </motion.div>
+              </MotionDiv>
             </div>
           ))}
         </div>
       </section>
     </div>
   );
-};
-
-export default ProductsPage;
+}

@@ -1,5 +1,5 @@
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import {getMessages, setRequestLocale} from 'next-intl/server';
 import {locales} from '@/i18n';
 import {notFound} from 'next/navigation';
 import '@/styles/globals.css';
@@ -24,6 +24,10 @@ export default async function LocaleLayout({
   params: {locale: string};
 }) {
   const {locale} = params;
+  
+  // Enable static rendering
+  setRequestLocale(locale);
+
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
 

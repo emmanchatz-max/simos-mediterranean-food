@@ -1,10 +1,10 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import PrivateLabel from '@/components/PrivateLabel';
 import Image from 'next/image';
 
-const PrivateLabelPage = () => {
+export default function PrivateLabelPage({params: {locale}}: {params: {locale: string}}) {
+  setRequestLocale(locale);
+  
   return (
     <div className="pt-20">
       <section className="relative h-[40vh] flex items-center justify-center overflow-hidden">
@@ -71,6 +71,4 @@ const PrivateLabelPage = () => {
       </section>
     </div>
   );
-};
-
-export default PrivateLabelPage;
+}

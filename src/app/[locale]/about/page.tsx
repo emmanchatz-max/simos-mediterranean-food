@@ -1,10 +1,9 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
-const AboutPage = () => {
+export default function AboutPage({params: {locale}}: {params: {locale: string}}) {
+  setRequestLocale(locale);
   const t = useTranslations('About.preview');
 
   return (
@@ -66,6 +65,4 @@ const AboutPage = () => {
       </section>
     </div>
   );
-};
-
-export default AboutPage;
+}

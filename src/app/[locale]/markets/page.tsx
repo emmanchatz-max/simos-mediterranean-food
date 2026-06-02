@@ -1,10 +1,9 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
-import { motion } from 'framer-motion';
+import { setRequestLocale } from 'next-intl/server';
 import { Globe2, Ship, Plane, Truck } from 'lucide-react';
 
-const ExportMarketsPage = () => {
+export default function ExportMarketsPage({params: {locale}}: {params: {locale: string}}) {
+  setRequestLocale(locale);
   const t = useTranslations('Markets');
 
   return (
@@ -69,6 +68,4 @@ const ExportMarketsPage = () => {
       </section>
     </div>
   );
-};
-
-export default ExportMarketsPage;
+}
