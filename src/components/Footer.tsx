@@ -15,17 +15,17 @@ const Footer = () => {
             <Link href="/" className="inline-block">
               <span className="text-3xl font-serif font-bold text-white">SIMOS</span>
               <span className="block text-xs uppercase tracking-[0.3em] text-white/50 mt-1">
-                Mediterranean Food
+                {commonT('mediterraneanFood')}
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">
-              Premium Greek and Mediterranean food export specialists, serving wholesalers and retailers across Europe since 2008.
+              {commonT('brandDescription')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">Quick Links</h4>
+            <h4 className="text-white font-serif text-lg mb-6">{commonT('quickLinks')}</h4>
             <ul className="space-y-4 text-sm">
               <li><Link href="/" className="hover:text-white transition-colors">{t('home')}</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">{t('about')}</Link></li>
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">Services</h4>
+            <h4 className="text-white font-serif text-lg mb-6">{commonT('services')}</h4>
             <ul className="space-y-4 text-sm">
               <li><Link href="/private-label" className="hover:text-white transition-colors">{t('privateLabel')}</Link></li>
               <li><Link href="/logistics" className="hover:text-white transition-colors">{t('logistics')}</Link></li>
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">Contact</h4>
+            <h4 className="text-white font-serif text-lg mb-6">{commonT('contact')}</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-primary-light shrink-0" />
@@ -68,7 +68,7 @@ const Footer = () => {
                   className="inline-flex items-center space-x-2 text-white hover:text-primary-light transition-colors"
                 >
                   <Linkedin size={20} />
-                  <span>Follow us on LinkedIn</span>
+                  <span>{commonT('followUs')}</span>
                 </a>
               </li>
             </ul>
@@ -76,10 +76,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-16 pt-8 flex flex-col md:row justify-between items-center text-xs tracking-widest text-white/40 uppercase">
-          <p>© {new Date().getFullYear()} SIMOS Mediterranean Food. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} SIMOS {commonT('mediterraneanFood')}. {commonT('allRightsReserved')}</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">{commonT('privacyPolicy')}</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">{commonT('termsOfService')}</Link>
           </div>
         </div>
       </div>

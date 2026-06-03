@@ -1,8 +1,22 @@
 {
-  "Index": {
-    "title": "Greek & Mediterranean Food Export Specialists",
-    "description": "Premium Feta, Halloumi, Greek Yogurt and Mediterranean Products for European Retail & Food Service.",
-    "cta": "Explore Products"
+  "Common": {
+    "readMore": "Read More",
+    "readOurStory": "Read Our Story",
+    "contactOurTeam": "Contact Our Team",
+    "exploreProducts": "Explore Products",
+    "viewCollection": "View Collection",
+    "requestQuotation": "Request Quotation",
+    "requestCatalogue": "Request Catalogue",
+    "viewProductRange": "View Product Range",
+    "mediterraneanFood": "Mediterranean Food",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "allRightsReserved": "All Rights Reserved.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow us on LinkedIn",
+    "brandDescription": "Premium Greek and Mediterranean food export specialists, serving wholesalers and retailers across Europe since 2008."
   },
   "Navigation": {
     "home": "Home",
@@ -44,6 +58,7 @@
   },
   "Categories": {
     "title": "Our Product Categories",
+    "subtitle": "Discover Our Range",
     "feta": "Feta Cheese",
     "halloumi": "Halloumi",
     "yogurt": "Greek Yogurt",

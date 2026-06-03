@@ -10,6 +10,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const t = useTranslations('Navigation');
+  const commonT = useTranslations('Common');
   const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,7 +46,7 @@ const Navbar = () => {
             SIMOS
           </span>
           <span className={`text-xs uppercase tracking-widest hidden md:block ${isScrolled ? 'text-primary-light' : 'text-white/80'}`}>
-            Mediterranean Food
+            {commonT('mediterraneanFood')}
           </span>
         </Link>
 

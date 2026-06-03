@@ -1,8 +1,22 @@
 {
-  "Index": {
-    "title": "Specialisti nell'esportazione di prodotti alimentari greci e mediterranei",
-    "description": "Feta premium, halloumi, yogurt greco e prodotti mediterranei per il commercio al dettaglio e la ristorazione in Europa.",
-    "cta": "Esplora i prodotti"
+  "Common": {
+    "readMore": "Leggi di più",
+    "readOurStory": "La nostra storia",
+    "contactOurTeam": "Contatta il nostro team",
+    "exploreProducts": "Esplora i prodotti",
+    "viewCollection": "Visualizza la collezione",
+    "requestQuotation": "Richiedi un preventivo",
+    "requestCatalogue": "Richiedi il catalogo",
+    "viewProductRange": "Visualizza la gamma prodotti",
+    "mediterraneanFood": "Prodotti alimentari mediterranei",
+    "privacyPolicy": "Informativa sulla privacy",
+    "termsOfService": "Termini di servizio",
+    "allRightsReserved": "Tutti i diritti riservati.",
+    "quickLinks": "Link rapidi",
+    "services": "Servizi",
+    "contact": "Contatti",
+    "followUs": "Seguici su LinkedIn",
+    "brandDescription": "Specialisti nell'esportazione di prodotti alimentari greci e mediterranei di alta qualità, al servizio di grossisti e dettaglianti in tutta Europa dal 2008."
   },
   "Navigation": {
     "home": "Home",
@@ -44,6 +58,7 @@
   },
   "Categories": {
     "title": "Le nostre categorie di prodotti",
+    "subtitle": "Scopri la nostra gamma",
     "feta": "Formaggio Feta",
     "halloumi": "Halloumi",
     "yogurt": "Yogurt Greco",
