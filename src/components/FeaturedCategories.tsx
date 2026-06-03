@@ -16,14 +16,13 @@ const categories = [
 
 const FeaturedCategories = () => {
   const t = useTranslations('Categories');
-  const commonT = useTranslations('Common');
 
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16 space-y-4">
           <h3 className="text-primary font-medium tracking-[0.2em] uppercase text-sm">
-            {t('subtitle')}
+            Discover Our Range
           </h3>
           <h2 className="text-4xl md:text-5xl font-serif text-foreground">
             {t('title')}
@@ -53,7 +52,7 @@ const FeaturedCategories = () => {
                   href={`/products#${category.key}`}
                   className="text-xs uppercase tracking-[0.2em] font-medium border-b border-white/40 pb-1 w-fit hover:border-white transition-all"
                 >
-                  {commonT('viewCollection')}
+                  View Collection
                 </Link>
               </div>
             </motion.div>

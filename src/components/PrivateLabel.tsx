@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Tag, ShieldCheck, Factory } from 'lucide-react';
 
 const PrivateLabel = () => {
-  const t = useTranslations('PrivateLabel');
+  const t = useTranslations('Navigation');
 
   return (
     <section className="py-24 bg-white">
@@ -13,14 +13,14 @@ const PrivateLabel = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <h3 className="text-primary font-medium tracking-[0.2em] uppercase text-sm">
-              {t('subtitle')}
+              Tailored Solutions
             </h3>
             <h2 className="text-4xl md:text-5xl font-serif text-foreground">
-              {t('title')}
+              Private Label Capabilities
             </h2>
           </div>
           <p className="text-lg text-foreground/70 font-light leading-relaxed">
-            {t('description')}
+            We offer comprehensive private label services for wholesalers and major retailers. From product selection to packaging design and quality control, we help you bring authentic Mediterranean products to your customers under your own brand.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pt-12">
@@ -28,22 +28,22 @@ const PrivateLabel = () => {
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto text-primary">
                 <Tag size={28} />
               </div>
-              <h4 className="text-xl font-serif">{t('brandTitle')}</h4>
-              <p className="text-sm text-foreground/60 leading-relaxed">{t('brandDesc')}</p>
+              <h4 className="text-xl font-serif">Brand Development</h4>
+              <p className="text-sm text-foreground/60 leading-relaxed">Assistance in packaging and labeling compliant with EU regulations.</p>
             </div>
             <div className="space-y-4">
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto text-primary">
                 <Factory size={28} />
               </div>
-              <h4 className="text-xl font-serif">{t('sourcingTitle')}</h4>
-              <p className="text-sm text-foreground/60 leading-relaxed">{t('sourcingDesc')}</p>
+              <h4 className="text-xl font-serif">Flexible Sourcing</h4>
+              <p className="text-sm text-foreground/60 leading-relaxed">Direct access to certified producers for various product categories.</p>
             </div>
             <div className="space-y-4">
               <div className="w-16 h-16 bg-secondary rounded-full flex items-center justify-center mx-auto text-primary">
                 <ShieldCheck size={28} />
               </div>
-              <h4 className="text-xl font-serif">{t('qualityTitle')}</h4>
-              <p className="text-sm text-foreground/60 leading-relaxed">{t('qualityDesc')}</p>
+              <h4 className="text-xl font-serif">Quality Assurance</h4>
+              <p className="text-sm text-foreground/60 leading-relaxed">Rigorous testing and certification to ensure the highest standards.</p>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ const ContactForm = () => {
             <input 
               type="text" 
               className="w-full bg-white border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/20 outline-none transition-all shadow-sm"
-              placeholder={t('namePlaceholder')}
+              placeholder="John Doe"
             />
           </div>
           <div className="space-y-2">
@@ -23,17 +23,17 @@ const ContactForm = () => {
             <input 
               type="email" 
               className="w-full bg-white border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/20 outline-none transition-all shadow-sm"
-              placeholder={t('emailPlaceholder')}
+              placeholder="john@example.com"
             />
           </div>
         </div>
         <div className="space-y-2">
-          <label className="text-xs uppercase tracking-widest font-bold text-foreground/60 px-1">{t('subject')}</label>
+          <label className="text-xs uppercase tracking-widest font-bold text-foreground/60 px-1">Subject</label>
           <select className="w-full bg-white border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/20 outline-none transition-all shadow-sm appearance-none">
-            <option>{t('options.export')}</option>
-            <option>{t('options.private')}</option>
-            <option>{t('options.wholesale')}</option>
-            <option>{t('options.other')}</option>
+            <option>Export Inquiry</option>
+            <option>Private Label Inquiry</option>
+            <option>Wholesale/Retail Partnership</option>
+            <option>Other</option>
           </select>
         </div>
         <div className="space-y-2">
@@ -41,7 +41,7 @@ const ContactForm = () => {
           <textarea 
             rows={6}
             className="w-full bg-white border-none rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary/20 outline-none transition-all shadow-sm resize-none"
-            placeholder={t('messagePlaceholder')}
+            placeholder="How can we help you?"
           ></textarea>
         </div>
         <button 

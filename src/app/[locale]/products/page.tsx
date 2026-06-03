@@ -39,70 +39,14 @@ const products = [
 export default function ProductsPage({params: {locale}}: {params: {locale: string}}) {
   setRequestLocale(locale);
   const t = useTranslations('Categories');
-  const commonT = useTranslations('Common');
-  const marketT = useTranslations('Markets');
-
-  const products = [
-    {
-      id: 'feta',
-      title: t('feta'),
-      description: t('fetaDesc'),
-      image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=1200',
-      packaging: [
-        `150g ${t('vacuum')}`,
-        `200g ${t('vacuum')}`,
-        `400g ${t('brine')}`,
-        `1kg ${t('brine')}`,
-        `15kg ${t('tin')}`
-      ],
-    },
-    {
-      id: 'halloumi',
-      title: t('halloumi'),
-      description: t('halloumiDesc'),
-      image: 'https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&q=80&w=1200',
-      packaging: [
-        `200g ${t('vacuum')}`,
-        `225g ${t('vacuum')}`,
-        `250g ${t('vacuum')}`,
-        `500g ${t('cateringPack')}`
-      ],
-    },
-    {
-      id: 'yogurt',
-      title: t('yogurt'),
-      description: t('yogurtDesc'),
-      image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=1200',
-      packaging: [
-        `150g ${t('cup')}`,
-        `200g ${t('cup')}`,
-        `500g ${t('tub')}`,
-        `1kg ${t('tub')}`,
-        `5kg ${t('cateringTub')}`
-      ],
-    },
-    {
-      id: 'olives',
-      title: t('olives'),
-      description: t('olivesDesc'),
-      image: 'https://images.unsplash.com/photo-151451687d820-27060a0fdee3?auto=format&fit=crop&q=80&w=1200',
-      packaging: [
-        `200g ${t('pouch')}`,
-        `350g ${t('jar')}`,
-        `1kg ${t('vacuum')}`,
-        `5kg ${t('pail')}`,
-        `10kg ${t('drum')}`
-      ],
-    },
-  ];
 
   return (
     <div className="pt-20">
       <section className="bg-secondary py-24">
         <div className="container mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-7xl font-serif text-primary mb-8">{commonT('viewProductRange')}</h1>
+          <h1 className="text-5xl md:text-7xl font-serif text-primary mb-8">Our Product Range</h1>
           <p className="text-xl text-foreground/70 max-w-2xl mx-auto font-light leading-relaxed">
-            {marketT('description')}
+            Discover our carefully selected range of premium Mediterranean food products, specifically curated for the European B2B market.
           </p>
         </div>
       </section>
@@ -141,7 +85,7 @@ export default function ProductsPage({params: {locale}}: {params: {locale: strin
                 <div className="space-y-6">
                   <div className="flex items-center space-x-3 text-primary">
                     <Package size={24} />
-                    <h4 className="font-serif text-xl">{t('packagingOptions')}</h4>
+                    <h4 className="font-serif text-xl">Export Packaging</h4>
                   </div>
                   <div className="flex flex-wrap gap-3">
                     {product.packaging.map((pkg) => (
@@ -157,7 +101,7 @@ export default function ProductsPage({params: {locale}}: {params: {locale: strin
                     href="/contact"
                     className="bg-primary text-white px-8 py-4 rounded-full text-sm uppercase tracking-widest font-medium hover:bg-primary-light transition-all flex items-center space-x-2"
                   >
-                    <span>{commonT('requestQuotation')}</span>
+                    <span>Request Quotation</span>
                     <ArrowRight size={18} />
                   </Link>
                 </div>

@@ -6,7 +6,6 @@ import ContactForm from '@/components/ContactForm';
 export default function ContactPage({params: {locale}}: {params: {locale: string}}) {
   setRequestLocale(locale);
   const t = useTranslations('Contact');
-  const commonT = useTranslations('Common');
 
   return (
     <div className="pt-20">
@@ -14,7 +13,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl md:text-7xl font-serif mb-8">{t('title')}</h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto font-light leading-relaxed">
-            {t('subtitle')}
+            Connect with our team of export specialists to discuss how we can support your business.
           </p>
         </div>
       </section>
@@ -27,7 +26,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
               <div className="space-y-6">
                 <h2 className="text-4xl font-serif text-foreground">{t('info')}</h2>
                 <p className="text-lg text-foreground/70 font-light leading-relaxed">
-                  {t('infoDesc')}
+                  We are available for inquiries regarding wholesale, retail distribution, and private label opportunities.
                 </p>
               </div>
 
@@ -37,8 +36,8 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
                     <MapPin size={24} />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl mb-1">{t('headquarters')}</h4>
-                    <p className="text-foreground/70">{t('address')}</p>
+                    <h4 className="font-serif text-xl mb-1">Our Headquarters</h4>
+                    <p className="text-foreground/70">Kolokotroni 1, Kryoneri, Athens 14568, Greece</p>
                   </div>
                 </div>
 
@@ -47,7 +46,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
                     <Phone size={24} />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl mb-1">{t('phone')}</h4>
+                    <h4 className="font-serif text-xl mb-1">Phone Number</h4>
                     <p className="text-foreground/70">+30 210 3246981</p>
                   </div>
                 </div>
@@ -57,7 +56,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
                     <Mail size={24} />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl mb-1">{t('emailLabel')}</h4>
+                    <h4 className="font-serif text-xl mb-1">Email Address</h4>
                     <p className="text-foreground/70">info@simosfg.com</p>
                   </div>
                 </div>
@@ -70,7 +69,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
                     className="inline-flex items-center space-x-4 group text-primary font-medium uppercase tracking-widest text-sm"
                   >
                     <Linkedin size={24} />
-                    <span className="border-b border-primary/20 pb-1 group-hover:border-primary transition-all">{commonT('followUs')}</span>
+                    <span className="border-b border-primary/20 pb-1 group-hover:border-primary transition-all">Follow us on LinkedIn</span>
                   </a>
                 </div>
               </div>
@@ -79,7 +78,7 @@ export default function ContactPage({params: {locale}}: {params: {locale: string
               <div className="h-64 bg-secondary rounded-2xl overflow-hidden relative">
                 <div className="absolute inset-0 flex items-center justify-center text-foreground/20">
                   <MapPin size={48} />
-                  <span className="ml-4 font-serif text-xl italic">{t('athens')}</span>
+                  <span className="ml-4 font-serif text-xl italic">Athens, Greece</span>
                 </div>
                 {/* In a real project, embed Google Maps here */}
               </div>

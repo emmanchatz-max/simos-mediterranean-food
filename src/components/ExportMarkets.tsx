@@ -26,7 +26,7 @@ const ExportMarkets = () => {
           <div className="space-y-8 relative z-10">
             <div className="space-y-4">
               <h3 className="text-white/60 font-medium tracking-[0.2em] uppercase text-sm">
-                {t('subtitle')}
+                Our Presence
               </h3>
               <h2 className="text-4xl md:text-5xl font-serif leading-tight">
                 {t('title')}

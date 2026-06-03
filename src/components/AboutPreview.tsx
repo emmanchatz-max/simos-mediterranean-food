@@ -7,7 +7,6 @@ import Image from 'next/image';
 
 const AboutPreview = () => {
   const t = useTranslations('About.preview');
-  const commonT = useTranslations('Common');
 
   return (
     <section className="py-24 bg-secondary">
@@ -22,7 +21,7 @@ const AboutPreview = () => {
           >
             <Image
               src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=1200"
-              alt={t('title')}
+              alt="Mediterranean Sourcing"
               fill
               className="object-cover"
             />
@@ -37,7 +36,7 @@ const AboutPreview = () => {
           >
             <div className="space-y-4">
               <h3 className="text-primary font-medium tracking-[0.2em] uppercase text-sm">
-                {t('subtitle')}
+                About Simos
               </h3>
               <h2 className="text-4xl md:text-5xl font-serif text-foreground leading-tight">
                 {t('title')}
@@ -55,7 +54,7 @@ const AboutPreview = () => {
                 className="inline-flex items-center space-x-4 group"
               >
                 <span className="text-primary font-medium tracking-widest uppercase text-sm border-b border-primary/20 pb-1 group-hover:border-primary transition-all">
-                  {commonT('readOurStory')}
+                  Read Our Story
                 </span>
                 <motion.span
                   animate={{ x: [0, 5, 0] }}

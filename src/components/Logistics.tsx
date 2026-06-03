@@ -4,8 +4,6 @@ import { useTranslations } from 'next-intl';
 import { Truck, PackageCheck, BarChart3, Clock } from 'lucide-react';
 
 const Logistics = () => {
-  const t = useTranslations('Logistics');
-
   return (
     <section className="py-24 bg-secondary">
       <div className="container mx-auto px-6">
@@ -13,43 +11,43 @@ const Logistics = () => {
           <div className="lg:w-1/2 space-y-8">
             <div className="space-y-4">
               <h3 className="text-primary font-medium tracking-[0.2em] uppercase text-sm">
-                {t('subtitle')}
+                Efficiency & Reliability
               </h3>
               <h2 className="text-4xl md:text-5xl font-serif text-foreground">
-                {t('title')}
+                Logistics & European Distribution
               </h2>
             </div>
             <p className="text-lg text-foreground/70 font-light leading-relaxed">
-              {t('description')}
+              Our advanced logistics network ensures that our products reach European markets in optimal condition. We manage the entire supply chain from the production facility in Greece to your warehouse door.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-start space-x-4">
                 <Truck className="text-primary shrink-0" size={24} />
                 <div>
-                  <h4 className="font-serif text-lg">{t('tempTitle')}</h4>
-                  <p className="text-sm text-foreground/60">{t('tempDesc')}</p>
+                  <h4 className="font-serif text-lg">Temperature Controlled</h4>
+                  <p className="text-sm text-foreground/60">Modern fleet ensuring cold chain integrity.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <Clock className="text-primary shrink-0" size={24} />
                 <div>
-                  <h4 className="font-serif text-lg">{t('timeTitle')}</h4>
-                  <p className="text-sm text-foreground/60">{t('timeDesc')}</p>
+                  <h4 className="font-serif text-lg">Timely Delivery</h4>
+                  <p className="text-sm text-foreground/60">Regular weekly departures to major European hubs.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <PackageCheck className="text-primary shrink-0" size={24} />
                 <div>
-                  <h4 className="font-serif text-lg">{t('secureTitle')}</h4>
-                  <p className="text-sm text-foreground/60">{t('secureDesc')}</p>
+                  <h4 className="font-serif text-lg">Secure Handling</h4>
+                  <p className="text-sm text-foreground/60">Standardized palletizing and secure packaging.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <BarChart3 className="text-primary shrink-0" size={24} />
                 <div>
-                  <h4 className="font-serif text-lg">{t('trackTitle')}</h4>
-                  <p className="text-sm text-foreground/60">{t('trackDesc')}</p>
+                  <h4 className="font-serif text-lg">Real-time Tracking</h4>
+                  <p className="text-sm text-foreground/60">Full visibility of your shipment from start to finish.</p>
                 </div>
               </div>
             </div>
@@ -59,7 +57,7 @@ const Logistics = () => {
              <div className="relative h-[500px] w-full bg-white rounded-2xl p-4 shadow-xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200" 
-                  alt={t('title')}
+                  alt="Logistics"
                   className="w-full h-full object-cover rounded-xl"
                 />
                 <div className="absolute inset-0 bg-primary/10" />

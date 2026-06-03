@@ -1,11 +1,10 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/navigation';
 import { Linkedin, Mail, Phone, MapPin } from 'lucide-react';
-import Image from 'next/image';
 
 const Footer = () => {
   const t = useTranslations('Navigation');
-  const commonT = useTranslations('Common');
+  const commonT = useTranslations('Contact');
 
   return (
     <footer className="bg-[#1a1a1a] text-white/80 py-16">
@@ -13,27 +12,20 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-6">
-            <Link href="/" className="inline-block group">
-              <div className="relative w-20 h-20 mb-2 transition-transform duration-300 group-hover:scale-105">
-                <Image
-                  src="/images/logo.PNG"
-                  alt="SIMOS Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+            <Link href="/" className="inline-block">
+              <span className="text-3xl font-serif font-bold text-white">SIMOS</span>
               <span className="block text-xs uppercase tracking-[0.3em] text-white/50 mt-1">
-                {commonT('mediterraneanFood')}
+                Mediterranean Food
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">
-              {commonT('brandDescription')}
+              Premium Greek and Mediterranean food export specialists, serving wholesalers and retailers across Europe since 2008.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">{commonT('quickLinks')}</h4>
+            <h4 className="text-white font-serif text-lg mb-6">Quick Links</h4>
             <ul className="space-y-4 text-sm">
               <li><Link href="/" className="hover:text-white transition-colors">{t('home')}</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">{t('about')}</Link></li>
@@ -44,7 +36,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">{commonT('services')}</h4>
+            <h4 className="text-white font-serif text-lg mb-6">Services</h4>
             <ul className="space-y-4 text-sm">
               <li><Link href="/private-label" className="hover:text-white transition-colors">{t('privateLabel')}</Link></li>
               <li><Link href="/logistics" className="hover:text-white transition-colors">{t('logistics')}</Link></li>
@@ -54,11 +46,11 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-white font-serif text-lg mb-6">{commonT('contact')}</h4>
+            <h4 className="text-white font-serif text-lg mb-6">Contact</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin size={18} className="text-primary-light shrink-0" />
-                <span>{commonT('address')}</span>
+                <span>Kolokotroni 1, Kryoneri, Athens 14568, Greece</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={18} className="text-primary-light shrink-0" />
@@ -76,7 +68,7 @@ const Footer = () => {
                   className="inline-flex items-center space-x-2 text-white hover:text-primary-light transition-colors"
                 >
                   <Linkedin size={20} />
-                  <span>{commonT('followUs')}</span>
+                  <span>Follow us on LinkedIn</span>
                 </a>
               </li>
             </ul>
@@ -84,10 +76,10 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 mt-16 pt-8 flex flex-col md:row justify-between items-center text-xs tracking-widest text-white/40 uppercase">
-          <p>© {new Date().getFullYear()} SIMOS {commonT('mediterraneanFood')}. {commonT('allRightsReserved')}</p>
+          <p>© {new Date().getFullYear()} SIMOS Mediterranean Food. All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-white transition-colors">{commonT('privacyPolicy')}</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">{commonT('termsOfService')}</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

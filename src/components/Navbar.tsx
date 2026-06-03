@@ -7,11 +7,9 @@ import { Menu, X, Linkedin, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { locales } from '@/i18n';
 import LanguageSwitcher from './LanguageSwitcher';
-import Image from 'next/image';
 
 const Navbar = () => {
   const t = useTranslations('Navigation');
-  const commonT = useTranslations('Common');
   const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,20 +40,12 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex flex-col items-center group">
-          <div className="relative w-16 h-16 md:w-20 md:h-20 transition-transform duration-300 group-hover:scale-105">
-            <Image
-              src="/images/logo.PNG"
-              alt="SIMOS Logo"
-              fill
-              className="object-contain"
-              priority
-            />
-          </div>
-          <span className={`text-[10px] md:text-xs uppercase tracking-[0.2em] mt-1 font-medium transition-colors ${
-            isScrolled ? 'text-primary-light' : 'text-white/80'
-          }`}>
-            {commonT('mediterraneanFood')}
+        <Link href="/" className="flex items-center space-x-2">
+          <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>
+            SIMOS
+          </span>
+          <span className={`text-xs uppercase tracking-widest hidden md:block ${isScrolled ? 'text-primary-light' : 'text-white/80'}`}>
+            Mediterranean Food
           </span>
         </Link>
 

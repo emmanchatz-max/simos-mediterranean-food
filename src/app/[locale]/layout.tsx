@@ -10,16 +10,6 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'SIMOS Mediterranean Food | Premium Food Export',
   description: 'Specialists in exporting high-quality Greek and Mediterranean food products across Europe.',
-  icons: {
-    icon: [
-      { url: '/images/logo.PNG' },
-      { url: '/images/logo.PNG', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/images/logo.PNG', sizes: '180x180', type: 'image/png' },
-    ],
-  },
-  manifest: '/site.webmanifest',
 };
 
 export function generateStaticParams() {
