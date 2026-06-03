@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex flex-col items-center group">
-          <div className="relative w-16 h-16 md:w-20 md:h-20 transition-transform duration-300 group-hover:scale-105">
+          <div className="relative w-24 h-24 md:w-32 md:h-32 transition-transform duration-300 group-hover:scale-105">
             <Image
               src="/images/logo.PNG"
               alt="SIMOS Logo"
@@ -52,7 +52,7 @@ const Navbar = () => {
               priority
             />
           </div>
-          <span className={`text-[10px] md:text-xs uppercase tracking-[0.2em] mt-1 font-medium transition-colors ${
+          <span className={`text-[11px] md:text-sm uppercase tracking-[0.25em] -mt-2 font-medium transition-colors ${
             isScrolled ? 'text-primary-light' : 'text-white/80'
           }`}>
             {commonT('mediterraneanFood')}

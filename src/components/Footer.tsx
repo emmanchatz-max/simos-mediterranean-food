@@ -14,7 +14,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="inline-block group">
-              <div className="relative w-20 h-20 mb-2 transition-transform duration-300 group-hover:scale-105">
+              <div className="relative w-28 h-28 mb-1 transition-transform duration-300 group-hover:scale-105">
                 <Image
                   src="/images/logo.PNG"
                   alt="SIMOS Logo"
@@ -22,7 +22,7 @@ const Footer = () => {
                   className="object-contain"
                 />
               </div>
-              <span className="block text-xs uppercase tracking-[0.3em] text-white/50 mt-1">
+              <span className="block text-xs uppercase tracking-[0.3em] text-white/50 -mt-2">
                 {commonT('mediterraneanFood')}
               </span>
             </Link>
