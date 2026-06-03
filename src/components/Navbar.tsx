@@ -45,7 +45,7 @@ const Navbar = () => {
         <Link href="/" className="flex flex-col items-center group">
           <div className="relative w-16 h-16 md:w-20 md:h-20 transition-transform duration-300 group-hover:scale-105">
             <Image
-              src="/images/logo.png"
+              src="/images/logo.PNG"
               alt="SIMOS Logo"
               fill
               className="object-contain"

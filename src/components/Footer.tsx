@@ -16,7 +16,7 @@ const Footer = () => {
             <Link href="/" className="inline-block group">
               <div className="relative w-20 h-20 mb-2 transition-transform duration-300 group-hover:scale-105">
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo.PNG"
                   alt="SIMOS Logo"
                   fill
                   className="object-contain"
