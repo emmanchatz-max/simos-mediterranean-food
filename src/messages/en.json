@@ -1,8 +1,22 @@
 {
-  "Index": {
-    "title": "Greek & Mediterranean Food Export Specialists",
-    "description": "Premium Feta, Halloumi, Greek Yogurt and Mediterranean Products for European Retail & Food Service.",
-    "cta": "Explore Products"
+  "Common": {
+    "readMore": "Read More",
+    "readOurStory": "Read Our Story",
+    "contactOurTeam": "Contact Our Team",
+    "exploreProducts": "Explore Products",
+    "viewCollection": "View Collection",
+    "requestQuotation": "Request Quotation",
+    "requestCatalogue": "Request Catalogue",
+    "viewProductRange": "View Product Range",
+    "mediterraneanFood": "Mediterranean Food",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "allRightsReserved": "All Rights Reserved.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow us on LinkedIn",
+    "brandDescription": "Premium Greek and Mediterranean food export specialists, serving wholesalers and retailers across Europe since 2008."
   },
   "Navigation": {
     "home": "Home",
@@ -11,7 +25,10 @@
     "markets": "Export Markets",
     "privateLabel": "Private Label",
     "logistics": "Logistics",
-    "contact": "Contact"
+    "contact": "Contact",
+    "services": "Services",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow us on LinkedIn"
   },
   "Hero": {
     "slide1": {
@@ -38,33 +55,139 @@
   "About": {
     "preview": {
       "title": "Our Mediterranean Heritage",
+      "subtitle": "About Simos",
       "text1": "SIMOS Mediterranean Food specializes in the selection and export of the finest Greek and Mediterranean products. With over 15 years of experience, we connect traditional producers with the European market.",
       "text2": "Our commitment to quality and authenticity has made us a trusted partner for wholesalers and retailers across France, Italy, Spain, and Belgium."
+    },
+    "page": {
+      "title": "Our Story",
+      "subtitle": "Mediterranean Excellence since 2008",
+      "legacyTitle": "A Legacy of Quality",
+      "legacyText": "Founded in 2008 in Athens, SIMOS Mediterranean Food was born from a passion for authentic Greek flavors and a vision to share them with the world. We began as a small family-run export business and have grown into a leading partner for European food service and retail.",
+      "expertiseTitle": "Mediterranean Expertise",
+      "expertiseText": "Our expertise lies in our deep understanding of both the production and distribution sides of the food industry. We work closely with certified Greek producers to ensure that every product meeting our name adheres to the highest standards of quality and authenticity."
     }
   },
   "Categories": {
     "title": "Our Product Categories",
+    "subtitle": "Discover Our Range",
     "feta": "Feta Cheese",
+    "fetaDesc": "Authentic P.D.O. Greek Feta cheese made from sheep and goat milk. Available in various formats for retail and food service.",
     "halloumi": "Halloumi",
+    "halloumiDesc": "Traditional Cyprus cheese, perfect for grilling or frying. High-quality production with authentic taste.",
     "yogurt": "Greek Yogurt",
+    "yogurtDesc": "Thick, creamy and authentic Greek yogurt. High protein content and traditional straining process.",
     "olives": "Olives",
+    "olivesDesc": "Premium Kalamata and Green olives, harvested at peak ripeness and processed with traditional methods.",
     "dips": "Mediterranean Dips",
-    "vineLeaves": "Vine Leaves"
+    "vineLeaves": "Vine Leaves",
+    "packagingOptions": "Packaging Options",
+    "vacuum": "Vacuum",
+    "brine": "Brine",
+    "tin": "Tin",
+    "cateringPack": "Catering Pack",
+    "cup": "Cup",
+    "tub": "Tub",
+    "cateringTub": "Catering Tub",
+    "pouch": "Pouch",
+    "jar": "Jar",
+    "pail": "Pail",
+    "drum": "Drum"
   },
   "Markets": {
     "title": "Export Markets",
+    "subtitle": "Our Presence",
+    "description": "We provide localized expertise and reliable supply chains across key European markets.",
+    "pageDescription": "Connecting Greek excellence with major European markets through reliable logistics and localized expertise.",
     "france": "France",
+    "franceDesc": "Strong presence in major retail chains and specialized Mediterranean food importers.",
     "italy": "Italy",
+    "italyDesc": "Supplying high-quality Greek yogurt and feta to food service partners across the country.",
     "spain": "Spain",
+    "spainDesc": "Growing network of distributors focusing on authentic Mediterranean products.",
     "belgium": "Belgium",
-    "description": "We provide localized expertise and reliable supply chains across key European markets."
+    "belgiumDesc": "Central hub for distribution to Benelux wholesalers and catering companies.",
+    "logisticsTitle": "Logistics Capabilities",
+    "maritime": "Maritime Transport",
+    "maritimeDesc": "Efficient container shipping for large volume orders.",
+    "road": "Road Transport",
+    "roadDesc": "Weekly departures to all major European destinations.",
+    "air": "Air Freight",
+    "airDesc": "Express shipping for fresh and time-sensitive products."
+  },
+  "PrivateLabel": {
+    "title": "Private Label Capabilities",
+    "subtitle": "Tailored Solutions",
+    "description": "We offer comprehensive private label services for wholesalers and major retailers. From product selection to packaging design and quality control, we help you bring authentic Mediterranean products to your customers under your own brand.",
+    "brandTitle": "Brand Development",
+    "brandDesc": "Assistance in packaging and labeling compliant with EU regulations.",
+    "sourcingTitle": "Flexible Sourcing",
+    "sourcingDesc": "Direct access to certified producers for various product categories.",
+    "qualityTitle": "Quality Assurance",
+    "qualityDesc": "Rigorous testing and certification to ensure the highest standards.",
+    "whyChooseUs": "Why Choose Us?",
+    "network": "Access to a network of certified Greek producers.",
+    "compliance": "Full compliance with European food safety standards.",
+    "management": "End-to-end management from production to delivery.",
+    "customizable": "Customizable packaging and volume options.",
+    "process": "Process",
+    "step1Title": "Consultation",
+    "step1Desc": "Discuss your brand requirements and product selection.",
+    "step2Title": "Sourcing",
+    "step2Desc": "Identify the best producers for your specific needs.",
+    "step3Title": "Design",
+    "step3Desc": "Assist in packaging design and labeling compliance.",
+    "step4Title": "Production",
+    "step4Desc": "Rigorous quality control during the manufacturing process."
+  },
+  "Logistics": {
+    "title": "Logistics & European Distribution",
+    "subtitle": "Efficiency & Reliability",
+    "description": "Our advanced logistics network ensures that our products reach European markets in optimal condition. We manage the entire supply chain from the production facility in Greece to your warehouse door.",
+    "tempTitle": "Temperature Controlled",
+    "tempDesc": "Modern fleet ensuring cold chain integrity.",
+    "timeTitle": "Timely Delivery",
+    "timeDesc": "Regular weekly departures to major European hubs.",
+    "secureTitle": "Secure Handling",
+    "secureDesc": "Standardized palletizing and secure packaging.",
+    "trackTitle": "Real-time Tracking",
+    "trackDesc": "Full visibility of your shipment from start to finish.",
+    "commitmentTitle": "Our Commitment",
+    "coldChain": "Cold Chain Integrity",
+    "coldChainDesc": "We specialize in temperature-controlled logistics, ensuring that chilled and frozen products like Feta and Greek yogurt maintain their quality and safety throughout the journey.",
+    "regCompliance": "Regulatory Compliance",
+    "regComplianceDesc": "Our team handles all necessary export documentation and ensures full compliance with EU food safety regulations and labeling requirements for each destination country.",
+    "flexVolume": "Flexible Volume",
+    "flexVolumeDesc": "Whether you require full truckloads (FTL) or smaller groupage shipments (LTL), we provide flexible solutions tailored to your inventory needs.",
+    "stratHubs": "Strategic Hubs",
+    "stratHubsDesc": "With strategic partners in France, Italy, and Spain, we offer efficient local distribution from regional warehouses."
   },
   "Contact": {
     "title": "Contact Us",
+    "subtitle": "Connect with our team of export specialists to discuss how we can support your business.",
     "name": "Full Name",
     "email": "Email Address",
     "message": "Message",
+    "namePlaceholder": "John Doe",
+    "emailPlaceholder": "john@example.com",
+    "messagePlaceholder": "How can we help you?",
+    "subject": "Subject",
     "submit": "Send Inquiry",
-    "info": "Contact Information"
+    "info": "Contact Information",
+    "infoDesc": "We are available for inquiries regarding wholesale, retail distribution, and private label opportunities.",
+    "headquarters": "Our Headquarters",
+    "athens": "Athens, Greece",
+    "greece": "Greece",
+    "address": "Kolokotroni 1, Kryoneri, Athens 14568, Greece",
+    "phone": "Phone Number",
+    "emailLabel": "Email Address",
+    "ctaTitle": "Ready to Expand Your Mediterranean Range?",
+    "ctaDesc": "Connect with our export team today to request our full product catalogue and discuss partnership opportunities.",
+    "options": {
+      "export": "Export Inquiry",
+      "private": "Private Label Inquiry",
+      "wholesale": "Wholesale/Retail Partnership",
+      "other": "Other"
+    }
   }
 }

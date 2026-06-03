@@ -6,6 +6,8 @@ import { Link } from '@/navigation';
 import { ArrowRight } from 'lucide-react';
 
 const ContactCTA = () => {
+  const t = useTranslations('Contact');
+
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -20,17 +22,17 @@ const ContactCTA = () => {
           
           <div className="relative z-10 max-w-2xl mx-auto space-y-8">
             <h2 className="text-4xl md:text-6xl font-serif">
-              Ready to Expand Your Mediterranean Range?
+              {t('ctaTitle')}
             </h2>
             <p className="text-xl text-white/80 font-light leading-relaxed">
-              Connect with our export team today to request our full product catalogue and discuss partnership opportunities.
+              {t('ctaDesc')}
             </p>
             <div className="pt-4">
               <Link
                 href="/contact"
                 className="inline-flex items-center space-x-3 bg-white text-primary px-10 py-5 rounded-full font-medium uppercase tracking-widest text-sm hover:bg-secondary transition-colors group"
               >
-                <span>Contact Our Team</span>
+                <span>{t('submit')}</span>
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
