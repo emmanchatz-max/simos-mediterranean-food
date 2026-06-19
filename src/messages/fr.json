@@ -60,12 +60,14 @@
   "Categories": {
     "title": "Nos catégories de produits",
     "subtitle": "Découvrez notre gamme",
-    "feta": "Fromage Feta",
-    "halloumi": "Halloumi",
-    "yogurt": "Yaourt Grec",
-    "olives": "Olives",
-    "dips": "Dips Méditerranéens",
-    "vineLeaves": "Feuilles de Vigne"
+    "fetaPdo": "Feta AOP",
+    "barrelAgedFetaPdo": "Feta AOP Affinée en Baril",
+    "organicFetaPdo": "Feta AOP Biologique",
+    "manouriPdo": "Manouri AOP",
+    "halloumiPdo": "Halloumi AOP",
+    "grillCheese": "Fromage à Griller",
+    "greekSaladCheese": "Fromage Grec pour Salade",
+    "greekYogurt": "Yaourt Grec"
   },
   "Markets": {
     "title": "Marchés d'exportation",

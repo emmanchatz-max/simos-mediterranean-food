@@ -60,12 +60,14 @@
   "Categories": {
     "title": "Κατηγορίες Προϊόντων",
     "subtitle": "Ανακαλύψτε τη Γκάμα μας",
-    "feta": "Φέτα",
-    "halloumi": "Χαλούμι",
-    "yogurt": "Ελληνικό Γιαούρτι",
-    "olives": "Ελιές",
-    "dips": "Μεσογειακά Dips",
-    "vineLeaves": "Αμπελόφυλλα"
+    "fetaPdo": "Φέτα ΠΟΠ",
+    "barrelAgedFetaPdo": "Βαρελίσια Φέτα ΠΟΠ",
+    "organicFetaPdo": "Βιολογική Φέτα ΠΟΠ",
+    "manouriPdo": "Μανούρι ΠΟΠ",
+    "halloumiPdo": "Χαλούμι ΠΟΠ",
+    "grillCheese": "Τυρί Ψησίματος",
+    "greekSaladCheese": "Ελληνικό Τυρί Σαλάτας",
+    "greekYogurt": "Ελληνικό Γιαούρτι"
   },
   "Markets": {
     "title": "Αγορές Εξαγωγών",

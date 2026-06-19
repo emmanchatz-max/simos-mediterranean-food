@@ -6,12 +6,14 @@ import { Link } from '@/navigation';
 import Image from 'next/image';
 
 const categories = [
-  { key: 'feta', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
-  { key: 'halloumi', image: 'https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&q=80&w=800' },
-  { key: 'yogurt', image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800' },
-  { key: 'olives', image: 'https://images.unsplash.com/photo-151451687d820-27060a0fdee3?auto=format&fit=crop&q=80&w=800' },
-  { key: 'dips', image: 'https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=800' },
-  { key: 'vineLeaves', image: 'https://images.unsplash.com/photo-1621841957884-1210fe19d66d?auto=format&fit=crop&q=80&w=800' },
+  { key: 'fetaPdo', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
+  { key: 'barrelAgedFetaPdo', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
+  { key: 'organicFetaPdo', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
+  { key: 'manouriPdo', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
+  { key: 'halloumiPdo', image: 'https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&q=80&w=800' },
+  { key: 'grillCheese', image: 'https://images.unsplash.com/photo-1559561853-08451507cbe7?auto=format&fit=crop&q=80&w=800' },
+  { key: 'greekSaladCheese', image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=800' },
+  { key: 'greekYogurt', image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=800' },
 ];
 
 const FeaturedCategories = () => {
@@ -29,7 +31,7 @@ const FeaturedCategories = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
           {categories.map((category, index) => (
             <motion.div
               key={category.key}

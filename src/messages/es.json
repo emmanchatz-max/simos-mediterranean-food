@@ -60,12 +60,14 @@
   "Categories": {
     "title": "Nuestras categorías de productos",
     "subtitle": "Descubra nuestra gama",
-    "feta": "Queso Feta",
-    "halloumi": "Halloumi",
-    "yogurt": "Yogur Griego",
-    "olives": "Aceitunas",
-    "dips": "Salsas Mediterráneas",
-    "vineLeaves": "Hojas de Parra"
+    "fetaPdo": "Feta DOP",
+    "barrelAgedFetaPdo": "Feta DOP Curado en Barrica",
+    "organicFetaPdo": "Feta DOP Orgánico",
+    "manouriPdo": "Manouri DOP",
+    "halloumiPdo": "Halloumi DOP",
+    "grillCheese": "Queso para Parrilla",
+    "greekSaladCheese": "Queso Griego para Ensalada",
+    "greekYogurt": "Yogur Griego"
   },
   "Markets": {
     "title": "Mercados de exportación",

@@ -60,12 +60,14 @@
   "Categories": {
     "title": "Our Product Categories",
     "subtitle": "Discover Our Range",
-    "feta": "Feta Cheese",
-    "halloumi": "Halloumi",
-    "yogurt": "Greek Yogurt",
-    "olives": "Olives",
-    "dips": "Mediterranean Dips",
-    "vineLeaves": "Vine Leaves"
+    "fetaPdo": "Feta PDO",
+    "barrelAgedFetaPdo": "Barrel Aged Feta PDO",
+    "organicFetaPdo": "Organic Feta PDO",
+    "manouriPdo": "Manouri PDO",
+    "halloumiPdo": "Halloumi PDO",
+    "grillCheese": "Grill Cheese",
+    "greekSaladCheese": "Greek Salad Cheese",
+    "greekYogurt": "Greek Yogurt"
   },
   "Markets": {
     "title": "Export Markets",
