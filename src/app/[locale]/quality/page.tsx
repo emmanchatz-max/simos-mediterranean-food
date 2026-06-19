@@ -1166,38 +1166,38 @@ export default function QualityPage({ params: { locale } }: PageProps) {
 
   const standards = [
     {
-      mark: 'IFS',
       title: 'IFS',
+      imageSrc: '/images/IFS-logo.jpg',
       description: content.standards.cards.ifs,
       url: 'https://www.ifs-certification.com/index.php/en/ifs-portfolio/standards/food-standard',
     },
     {
-      mark: 'BRCGS',
       title: 'BRCGS',
+      imageSrc: '/images/BRC-Logo-Large.jpg',
       description: content.standards.cards.brcgs,
       url: 'https://www.brcgs.com/our-standards/food-safety/',
     },
     {
-      mark: 'BIO',
       title: 'BIO Hellas',
+      imageSrc: '/images/biohellas-logo.png',
       description: content.standards.cards.bioHellas,
       url: 'https://bio-hellas.gr/the-biohellas-institute/the-biohellas-logo/?lang=en',
     },
     {
-      mark: 'AGRO',
       title: 'Agrocert',
+      imageSrc: '/images/agrocert-logo.png',
       description: content.standards.cards.agrocert,
       url: 'https://iagrocert.gr/',
     },
     {
-      mark: 'HALAL',
       title: 'Halal Certification',
+      imageSrc: '/images/Halal-logo.svg.png',
       description: content.standards.cards.halal,
       url: 'https://bpjph.halal.go.id/en/',
     },
     {
-      mark: 'KOSHER',
       title: 'Kosher Certification',
+      imageSrc: '/images/kosher-logo.jpg',
       description: content.standards.cards.kosher,
       url: 'https://kof-k.org/',
     },
@@ -1329,27 +1329,16 @@ export default function QualityPage({ params: { locale } }: PageProps) {
                   className="group relative overflow-hidden rounded-[1.5rem] border border-secondary bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/25 hover:shadow-md"
                   aria-label={`${standard.title} ${content.standards.officialSource}`}
                 >
-                  <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full border border-primary/10 bg-primary/5">
-                    <svg
-                      viewBox="0 0 120 120"
-                      className="h-20 w-20 text-primary"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true"
-                    >
-                      <circle cx="60" cy="60" r="46" stroke="currentColor" strokeWidth="2" opacity="0.35" />
-                      <circle cx="60" cy="60" r="36" stroke="currentColor" strokeWidth="2" opacity="0.6" />
-                      <path
-                        d="M60 20l6.8 9.8 11.4-2.5-2.5 11.4L85.5 46 75.7 52.8l2.5 11.4-11.4-2.5L60 71.5l-6.8-9.8-11.4 2.5 2.5-11.4L34.5 46l9.8-6.8-2.5-11.4 11.4 2.5L60 20z"
-                        stroke="currentColor"
-                        strokeWidth="1.6"
-                        opacity="0.25"
+                  <div className="mx-auto flex h-24 w-full max-w-[7.5rem] items-center justify-center rounded-2xl border border-primary/10 bg-primary/5 p-3">
+                    <div className="relative h-16 w-full">
+                      <Image
+                        src={standard.imageSrc}
+                        alt={standard.title}
+                        fill
+                        className="object-contain"
+                        sizes="120px"
                       />
-                      <circle cx="60" cy="60" r="22" stroke="currentColor" strokeWidth="2" opacity="0.9" />
-                    </svg>
-                    <span className="absolute text-lg font-semibold uppercase tracking-[0.18em] text-primary">
-                      {standard.mark}
-                    </span>
+                    </div>
                   </div>
 
                   <div className="mt-5 space-y-2">
