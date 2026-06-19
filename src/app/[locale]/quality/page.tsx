@@ -150,14 +150,16 @@ const qualityContent = {
       ],
     },
     standards: {
-      eyebrow: 'International Certifications',
-      title: 'Recognised International Standards',
+      eyebrow: 'Trusted Standards',
+      title: 'Trusted Standards',
       description:
-        'Depending on category, destination market and production partner, our sourcing network includes facilities operating under recognised certification and assurance schemes.',
+        'Buyers expect documented, auditable quality systems. SIMOS works with certified production partners aligned with international retailer and food service requirements.',
+      trustStatement:
+        'SIMOS collaborates with certified production partners that comply with internationally recognised quality, food safety and traceability standards.',
       note:
         'Certification availability depends on the selected producer, product category and production site. SIMOS presents these standards as part of its certified sourcing network and partner capability profile.',
-      cardLabel: 'Recognised standard',
-      officialSource: 'Official source',
+      cardLabel: 'Certification standard',
+      officialSource: 'Official reference',
       cards: {
         ifs: 'IFS Food is widely used to assess food safety, product quality and operational consistency in food manufacturing and packing environments.',
         brcgs:
@@ -359,10 +361,12 @@ const qualityContent = {
       ],
     },
     standards: {
-      eyebrow: 'Διεθνείς Πιστοποιήσεις',
-      title: 'Αναγνωρισμένα Διεθνή Πρότυπα',
+      eyebrow: 'Αξιόπιστα Πρότυπα',
+      title: 'Αξιόπιστα Πρότυπα',
       description:
-        'Ανάλογα με την κατηγορία, την αγορά προορισμού και τον συνεργάτη παραγωγής, το δίκτυο προμήθειάς μας περιλαμβάνει εγκαταστάσεις που λειτουργούν με αναγνωρισμένα σχήματα πιστοποίησης και διασφάλισης.',
+        'Οι αγοραστές απαιτούν τεκμηριωμένα και ελέγξιμα συστήματα ποιότητας. Η SIMOS συνεργάζεται με πιστοποιημένους παραγωγούς που ευθυγραμμίζονται με διεθνείς απαιτήσεις λιανικής και food service.',
+      trustStatement:
+        'Η SIMOS συνεργάζεται με πιστοποιημένους συνεργάτες παραγωγής που συμμορφώνονται με διεθνώς αναγνωρισμένα πρότυπα ποιότητας, ασφάλειας τροφίμων και ιχνηλασιμότητας.',
       note:
         'Η διαθεσιμότητα πιστοποίησης εξαρτάται από τον επιλεγμένο παραγωγό, την κατηγορία προϊόντος και τη μονάδα παραγωγής. Η SIMOS παρουσιάζει αυτά τα πρότυπα ως μέρος του πιστοποιημένου δικτύου προμήθειας και των δυνατοτήτων των συνεργατών της.',
       cardLabel: 'Αναγνωρισμένο πρότυπο',
@@ -569,10 +573,12 @@ const qualityContent = {
       ],
     },
     standards: {
-      eyebrow: 'Certifications internationales',
-      title: 'Des standards internationaux reconnus',
+      eyebrow: 'Standards de confiance',
+      title: 'Standards de confiance',
       description:
-        'Selon la categorie, le marche de destination et le partenaire de production, notre reseau sourcing comprend des sites operant sous des schemas reconnus de certification et d assurance.',
+        'Les acheteurs attendent des systemes qualite documentes et auditables. SIMOS travaille avec des partenaires de production certifies alignes sur les exigences du retail et du food service.',
+      trustStatement:
+        'SIMOS collabore avec des partenaires de production certifies conformes a des standards internationalement reconnus de qualite, de securite alimentaire et de tracabilite.',
       note:
         'La disponibilite des certifications depend du producteur selectionne, de la categorie de produit et du site de production. SIMOS presente ces standards comme partie integrante de son reseau de sourcing certifie et des capacites de ses partenaires.',
       cardLabel: 'Standard reconnu',
@@ -779,10 +785,12 @@ const qualityContent = {
       ],
     },
     standards: {
-      eyebrow: 'Certificazioni internazionali',
-      title: 'Standard internazionali riconosciuti',
+      eyebrow: 'Standard affidabili',
+      title: 'Standard affidabili',
       description:
-        'A seconda della categoria, del mercato di destinazione e del partner produttivo, la nostra rete sourcing include stabilimenti che operano secondo schemi riconosciuti di certificazione e assurance.',
+        'I buyer richiedono sistemi qualita documentati e verificabili. SIMOS collabora con partner produttivi certificati, allineati alle esigenze di retail e food service.',
+      trustStatement:
+        'SIMOS collabora con partner produttivi certificati che rispettano standard internazionalmente riconosciuti di qualita, sicurezza alimentare e tracciabilita.',
       note:
         'La disponibilita delle certificazioni dipende dal produttore selezionato, dalla categoria di prodotto e dal sito produttivo. SIMOS presenta questi standard come parte della propria rete di sourcing certificato e del profilo di capacita dei partner.',
       cardLabel: 'Standard riconosciuto',
@@ -989,10 +997,12 @@ const qualityContent = {
       ],
     },
     standards: {
-      eyebrow: 'Certificaciones internacionales',
-      title: 'Estandares internacionales reconocidos',
+      eyebrow: 'Estandares de confianza',
+      title: 'Estandares de confianza',
       description:
-        'Segun la categoria, el mercado de destino y el socio productor, nuestra red de abastecimiento incluye instalaciones que operan bajo esquemas reconocidos de certificacion y aseguramiento.',
+        'Los compradores exigen sistemas de calidad documentados y auditables. SIMOS colabora con socios de produccion certificados alineados con requisitos de retail y food service.',
+      trustStatement:
+        'SIMOS colabora con socios de produccion certificados que cumplen con estandares internacionalmente reconocidos de calidad, seguridad alimentaria y trazabilidad.',
       note:
         'La disponibilidad de certificaciones depende del productor seleccionado, la categoria del producto y la planta de produccion. SIMOS presenta estos estandares como parte de su red de abastecimiento certificado y de la capacidad de sus socios.',
       cardLabel: 'Estandar reconocido',
@@ -1294,6 +1304,76 @@ export default function QualityPage({ params: { locale } }: PageProps) {
         </div>
       </section>
 
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-6">
+          <div className="mx-auto max-w-4xl space-y-5 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-primary-light">
+              {content.standards.eyebrow}
+            </p>
+            <h2 className="text-4xl font-serif text-primary md:text-5xl">{content.standards.title}</h2>
+            <p className="text-lg leading-relaxed text-foreground/70">{content.standards.description}</p>
+          </div>
+
+          <div className="mx-auto mt-10 max-w-5xl rounded-[2rem] border border-secondary bg-white px-8 py-10 shadow-sm md:px-12">
+            <p className="text-center text-sm leading-7 text-foreground/80 md:text-base">
+              {content.standards.trustStatement}
+            </p>
+
+            <div className="mt-10 grid grid-cols-2 gap-5 md:grid-cols-3 xl:grid-cols-6">
+              {standards.map((standard) => (
+                <a
+                  key={standard.title}
+                  href={standard.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative overflow-hidden rounded-[1.5rem] border border-secondary bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary/25 hover:shadow-md"
+                  aria-label={`${standard.title} ${content.standards.officialSource}`}
+                >
+                  <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full border border-primary/10 bg-primary/5">
+                    <svg
+                      viewBox="0 0 120 120"
+                      className="h-20 w-20 text-primary"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <circle cx="60" cy="60" r="46" stroke="currentColor" strokeWidth="2" opacity="0.35" />
+                      <circle cx="60" cy="60" r="36" stroke="currentColor" strokeWidth="2" opacity="0.6" />
+                      <path
+                        d="M60 20l6.8 9.8 11.4-2.5-2.5 11.4L85.5 46 75.7 52.8l2.5 11.4-11.4-2.5L60 71.5l-6.8-9.8-11.4 2.5 2.5-11.4L34.5 46l9.8-6.8-2.5-11.4 11.4 2.5L60 20z"
+                        stroke="currentColor"
+                        strokeWidth="1.6"
+                        opacity="0.25"
+                      />
+                      <circle cx="60" cy="60" r="22" stroke="currentColor" strokeWidth="2" opacity="0.9" />
+                    </svg>
+                    <span className="absolute text-lg font-semibold uppercase tracking-[0.18em] text-primary">
+                      {standard.mark}
+                    </span>
+                  </div>
+
+                  <div className="mt-5 space-y-2">
+                    <p className="text-sm font-semibold text-primary">{standard.title}</p>
+                    <p className="text-[11px] uppercase tracking-[0.22em] text-foreground/50">
+                      {content.standards.cardLabel}
+                    </p>
+                  </div>
+
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 flex items-center justify-center gap-2 bg-gradient-to-t from-white via-white/80 to-transparent pb-4 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    <span className="text-xs font-semibold text-primary">{content.standards.officialSource}</span>
+                    <ArrowRight size={14} className="text-primary" />
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            <p className="mx-auto mt-8 max-w-4xl text-center text-sm leading-7 text-foreground/60">
+              {content.standards.note}
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl space-y-4">
@@ -1394,47 +1474,6 @@ export default function QualityPage({ params: { locale } }: PageProps) {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-secondary py-24">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-primary-light">
-              {content.standards.eyebrow}
-            </p>
-            <h2 className="text-4xl font-serif text-primary md:text-5xl">{content.standards.title}</h2>
-            <p className="text-lg leading-relaxed text-foreground/70">{content.standards.description}</p>
-            <p className="text-sm leading-7 text-foreground/60">{content.standards.note}</p>
-          </div>
-
-          <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {standards.map((standard) => (
-              <div key={standard.title} className="flex h-full flex-col rounded-[1.75rem] bg-white p-8 shadow-sm">
-                <div className="flex items-center gap-4">
-                  <div className="flex h-16 min-w-16 items-center justify-center rounded-2xl border border-primary/10 bg-primary/5 px-3 text-center text-sm font-semibold uppercase tracking-[0.18em] text-primary">
-                    {standard.mark}
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-serif text-primary">{standard.title}</h3>
-                    <p className="pt-1 text-xs uppercase tracking-[0.2em] text-primary-light">
-                      {content.standards.cardLabel}
-                    </p>
-                  </div>
-                </div>
-                <p className="flex-1 pt-6 text-sm leading-7 text-foreground/70">{standard.description}</p>
-                <a
-                  href={standard.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary transition-opacity hover:opacity-70"
-                >
-                  {content.standards.officialSource}
-                  <ArrowRight size={16} />
-                </a>
-              </div>
-            ))}
           </div>
         </div>
       </section>
