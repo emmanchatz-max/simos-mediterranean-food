@@ -28,6 +28,7 @@ const Navbar = () => {
     { href: '/about', label: t('about') },
     { href: '/products', label: t('products') },
     { href: '/markets', label: t('markets') },
+    { href: '/quality', label: t('quality') },
     { href: '/private-label', label: t('privateLabel') },
     { href: '/logistics', label: t('logistics') },
     { href: '/contact', label: t('contact') },

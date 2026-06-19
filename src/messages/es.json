@@ -25,7 +25,8 @@
     "markets": "Mercados de exportación",
     "privateLabel": "Marca blanca",
     "logistics": "Logística",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "quality": "Calidad"
   },
   "Hero": {
     "slide1": {
@@ -81,5 +82,170 @@
     "message": "Mensaje",
     "submit": "Enviar consulta",
     "info": "Información de contacto"
+  },
+  "Quality": {
+    "meta": {
+      "title": "Calidad y Certificaciones | SIMOS Mediterranean Food",
+      "description": "Descubra los estandares de calidad, la trazabilidad, la red de productores certificados y la distribucion europea confiable de SIMOS Mediterranean Food."
+    },
+    "hero": {
+      "eyebrow": "Calidad y Certificaciones",
+      "title": "Calidad sin compromiso",
+      "subtitle": "Desde productores mediterraneos certificados hasta redes de distribucion europeas confiables, SIMOS entrega autenticos productos lacteos con trazabilidad completa, rigurosos estandares de calidad y un servicio fiable.",
+      "imageAlt": "Presentacion del control de calidad y del abastecimiento lacteo mediterraneo",
+      "cardImageAlt": "Proceso de verificacion del producto y control de calidad",
+      "metrics": {
+        "traceabilityLabel": "Trazabilidad",
+        "traceabilityValue": "Visibilidad de A a Z",
+        "partnerLabel": "Red de socios",
+        "partnerValue": "Productores certificados"
+      }
+    },
+    "commitment": {
+      "eyebrow": "Nuestro compromiso con la calidad",
+      "title": "Una cultura de calidad",
+      "description": "En SIMOS, la calidad se construye mediante un abastecimiento disciplinado, controles documentados y relaciones a largo plazo con productores que protegen la integridad del producto desde el origen hasta la entrega final.",
+      "items": {
+        "certifiedPartners": {
+          "title": "Socios de produccion certificados",
+          "description": "Colaboramos con productores que operan bajo marcos reconocidos de seguridad alimentaria y calidad, alineados con las expectativas del retail internacional."
+        },
+        "monitoredSupplyChain": {
+          "title": "Cadena de suministro supervisada",
+          "description": "La calidad del producto se revisa durante el abastecimiento, la produccion, el almacenamiento y la coordinacion de exportacion para mantener la consistencia en cada envio."
+        },
+        "foodSafety": {
+          "title": "Enfoque en seguridad alimentaria",
+          "description": "La higiene, el cumplimiento de especificaciones, el control por lotes y la integridad del producto siguen siendo prioridades centrales en cada categoria lactea y mediterranea."
+        },
+        "authenticSourcing": {
+          "title": "Origen mediterraneo autentico",
+          "description": "Protegemos el origen, la identidad y el perfil sensorial de los productos que representamos, con un enfoque claro en las autenticas especialidades lacteas mediterraneas."
+        },
+        "longTermStandards": {
+          "title": "Estabilidad de producto a largo plazo",
+          "description": "Las relaciones estables con productores y las expectativas de calidad claras respaldan estandares repetibles, suministro confiable y confianza del comprador a lo largo del tiempo."
+        }
+      }
+    },
+    "control": {
+      "eyebrow": "Procedimientos de control de calidad",
+      "title": "Control de calidad en cada etapa",
+      "description": "Nuestro proceso esta disenado para reducir el riesgo de abastecimiento, mejorar la transparencia del producto y mantener un desempeno confiable entre produccion certificada y logistica de exportacion.",
+      "stages": {
+        "supplierVerification": {
+          "title": "Verificacion de proveedores",
+          "description": "Las capacidades del productor, la documentacion y la adecuacion por categoria se revisan antes de que un producto entre en nuestro portafolio de abastecimiento."
+        },
+        "productionMonitoring": {
+          "title": "Seguimiento de produccion",
+          "description": "Mantenemos cercania con los socios de produccion para confirmar que las especificaciones, el empaque y los parametros de calidad acordados sigan alineados."
+        },
+        "productInspections": {
+          "title": "Inspecciones de producto",
+          "description": "La apariencia, el formato, la integridad del envase y las principales especificaciones comerciales se controlan antes de que los productos entren en el flujo de exportacion."
+        },
+        "batchControl": {
+          "title": "Control por lotes",
+          "description": "Cada lote comercial se vincula con registros de produccion y envio para que los productos puedan rastrearse con rapidez y precision."
+        },
+        "continuousAssessment": {
+          "title": "Evaluacion continua",
+          "description": "El rendimiento se revisa continuamente para que la calidad, el nivel de servicio y las expectativas del cliente permanezcan alineados a largo plazo."
+        }
+      }
+    },
+    "traceability": {
+      "eyebrow": "Trazabilidad total",
+      "title": "Trazabilidad completa del producto",
+      "description": "SIMOS mantiene visibilidad documentada desde la seleccion del productor hasta la entrega final al cliente, ayudando a los compradores a tomar decisiones de abastecimiento con confianza.",
+      "highlights": {
+        "aToZ": "Trazabilidad de la A a la Z en todo el flujo del producto, registros de lotes y coordinacion de entregas.",
+        "transparency": "Transparencia del producto para apoyar los requisitos de retail, importadores y food service.",
+        "visibility": "Visibilidad de la cadena de suministro sobre origen, manipulacion, envasado y estado del envio.",
+        "compliance": "Cumplimiento normativo respaldado por documentacion clara y registros auditables."
+      },
+      "steps": {
+        "producer": "Productor",
+        "processing": "Procesamiento",
+        "verification": "Verificacion de calidad",
+        "logistics": "Logistica",
+        "customer": "Cliente"
+      },
+      "stepDescriptions": {
+        "0": "Los productores aprobados se seleccionan segun su experiencia por categoria, fiabilidad operativa y perfil de certificacion.",
+        "1": "Los datos de procesamiento y envasado se vinculan con la especificacion del producto, el formato y la referencia del lote comercial.",
+        "2": "Los controles de calidad y la revision documental confirman la alineacion antes de que el pedido pase a la ejecucion exportadora.",
+        "3": "El almacenamiento, la expedicion y la coordinacion de la entrega se supervisan para proteger la condicion del producto y la constancia del servicio.",
+        "4": "Los compradores reciben un flujo de producto confiable respaldado por visibilidad documentada desde el origen hasta el destino."
+      }
+    },
+    "standards": {
+      "eyebrow": "Certificaciones internacionales",
+      "title": "Estandares internacionales reconocidos",
+      "description": "Segun la categoria, el mercado de destino y el socio productor, nuestra red de abastecimiento incluye instalaciones que operan bajo esquemas reconocidos de certificacion y aseguramiento.",
+      "note": "La disponibilidad de certificaciones depende del productor seleccionado, la categoria del producto y la planta de produccion. SIMOS presenta estos estandares como parte de su red de abastecimiento certificado y de la capacidad de sus socios.",
+      "cardLabel": "Estandar reconocido",
+      "officialSource": "Fuente oficial",
+      "cards": {
+        "ifs": "IFS Food se utiliza ampliamente para evaluar la seguridad alimentaria, la calidad del producto y la consistencia operativa en entornos de fabricacion y envasado de alimentos.",
+        "brcgs": "Los estandares BRCGS son reconocidos por grandes retailers e importadores por sus sistemas estructurados de seguridad alimentaria, controles documentados e integridad del producto.",
+        "bioHellas": "BIO Hellas apoya el control y la verificacion organica certificada para empresas que operan conforme a requisitos reconocidos de produccion ecologica.",
+        "agrocert": "Los esquemas relacionados con Agrocert respaldan marcos reconocidos de calidad agroalimentaria vinculados con identidad del producto, estandares agricolas y confianza del mercado.",
+        "halal": "La certificacion Halal es relevante para compradores que requieren ingredientes aprobados, procesos controlados y cumplimiento documentado para mercados de consumidores musulmanes.",
+        "kosher": "La certificacion Kosher facilita el acceso a mercados donde la revision de ingredientes, los controles de proceso y el cumplimiento religioso son prioridades comerciales."
+      }
+    },
+    "logistics": {
+      "eyebrow": "Calidad a traves de la logistica",
+      "title": "Entrega confiable, calidad constante",
+      "description": "En la distribucion internacional de lacteos y alimentos mediterraneos, la logistica forma parte del aseguramiento de la calidad. La precision del servicio, la disciplina de la cadena de frio y la visibilidad de la entrega protegen la experiencia final del comprador.",
+      "imageAlt": "Distribucion alimentaria europea y logistica de almacen",
+      "points": {
+        "edi": "Integracion EDI completa para un procesamiento eficiente de pedidos y coordinacion de la cadena de suministro.",
+        "carton": "Entrega por caja para apoyar reposiciones flexibles y pedidos mixtos.",
+        "noMoq": "Sin cantidad minima de pedido para compradores que requieren agilidad en multiples SKU.",
+        "markets": "Cobertura de distribucion en Francia, Espana, Belgica e Italia.",
+        "partner": "Ejecucion logistica respaldada por la colaboracion con Logifrio Madrid.",
+        "daily": "Entregas diarias excepto los domingos para mantener la continuidad del servicio.",
+        "service": "Alto nivel de servicio enfocado en precision, capacidad de respuesta y ventanas de entrega confiables."
+      }
+    },
+    "buyers": {
+      "eyebrow": "Confianza del comprador",
+      "title": "Por que los compradores internacionales eligen SIMOS",
+      "description": "Importadores, distribuidores, mayoristas, retailers y compradores Horeca confian en SIMOS por su abastecimiento estructurado, ejecucion estable y lectura profesional del mercado.",
+      "cards": {
+        "certifiedProduction": {
+          "title": "Produccion certificada",
+          "description": "Trabajamos con socios de produccion seleccionados por sus sistemas de calidad, conocimiento de categoria y preparacion para exportacion."
+        },
+        "traceability": {
+          "title": "Trazabilidad",
+          "description": "La visibilidad documentada de los lotes respalda la responsabilidad desde el origen hasta la entrega final."
+        },
+        "foodSafety": {
+          "title": "Seguridad alimentaria",
+          "description": "Las expectativas de seguridad alimentaria siguen siendo centrales en las decisiones de abastecimiento, los controles de producto y la coordinacion logistica."
+        },
+        "europeanDistribution": {
+          "title": "Distribucion europea",
+          "description": "Flujos de distribucion consolidados respaldan un servicio confiable en los principales mercados europeos."
+        },
+        "privateLabel": {
+          "title": "Experiencia en marca blanca",
+          "description": "Apoyamos a clientes de retail y food service con desarrollo e implementacion de marca blanca guiados por especificaciones."
+        },
+        "flexibleOrdering": {
+          "title": "Pedidos flexibles",
+          "description": "La entrega por caja, la flexibilidad sin MOQ y una coordinacion agil ayudan a los compradores a avanzar con mayor rapidez."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Busca un socio certificado en lacteos mediterraneos?",
+      "description": "Hable con nuestro equipo sobre soluciones de abastecimiento, oportunidades de marca blanca y productos lacteos mediterraneos certificados.",
+      "contact": "Contactenos"
+    }
   }
 }

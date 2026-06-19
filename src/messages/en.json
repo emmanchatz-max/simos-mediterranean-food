@@ -25,7 +25,8 @@
     "markets": "Export Markets",
     "privateLabel": "Private Label",
     "logistics": "Logistics",
-    "contact": "Contact"
+    "contact": "Contact",
+    "quality": "Quality"
   },
   "Hero": {
     "slide1": {
@@ -81,5 +82,170 @@
     "message": "Message",
     "submit": "Send Inquiry",
     "info": "Contact Information"
+  },
+  "Quality": {
+    "meta": {
+      "title": "Quality & Certifications | SIMOS Mediterranean Food",
+      "description": "Discover SIMOS Mediterranean Food quality standards, traceability systems, certified production partnerships and dependable European dairy distribution."
+    },
+    "hero": {
+      "eyebrow": "Quality & Certifications",
+      "title": "Quality Without Compromise",
+      "subtitle": "From certified Mediterranean producers to reliable European distribution networks, SIMOS delivers authentic dairy products with complete traceability, rigorous quality standards and dependable service.",
+      "imageAlt": "Mediterranean dairy sourcing and quality assurance presentation",
+      "cardImageAlt": "Food quality verification and product control process",
+      "metrics": {
+        "traceabilityLabel": "Traceability",
+        "traceabilityValue": "A to Z Visibility",
+        "partnerLabel": "Partner Network",
+        "partnerValue": "Certified Producers"
+      }
+    },
+    "commitment": {
+      "eyebrow": "Our Commitment to Quality",
+      "title": "A Culture of Quality",
+      "description": "Quality at SIMOS is built through disciplined sourcing, documented controls and long-term producer relationships that protect product integrity from origin to final delivery.",
+      "items": {
+        "certifiedPartners": {
+          "title": "Certified Production Partners",
+          "description": "We collaborate with producers operating under recognised food safety and quality frameworks aligned with international retail expectations."
+        },
+        "monitoredSupplyChain": {
+          "title": "Monitored Supply Chain",
+          "description": "Product quality is reviewed throughout sourcing, processing, storage and export coordination to maintain consistency across every shipment."
+        },
+        "foodSafety": {
+          "title": "Food Safety Focus",
+          "description": "Hygiene, specification compliance, batch control and product integrity remain central priorities in every dairy and Mediterranean category we handle."
+        },
+        "authenticSourcing": {
+          "title": "Authentic Mediterranean Sourcing",
+          "description": "We protect the origin, identity and sensory profile of the products we represent, with a clear focus on authentic Mediterranean dairy specialities."
+        },
+        "longTermStandards": {
+          "title": "Long-Term Product Stability",
+          "description": "Stable producer partnerships and clear quality expectations support repeatable standards, reliable supply and buyer confidence over time."
+        }
+      }
+    },
+    "control": {
+      "eyebrow": "Quality Control Procedures",
+      "title": "Quality Control at Every Stage",
+      "description": "Our process is designed to reduce sourcing risk, improve product transparency and maintain dependable performance across certified production and export logistics.",
+      "stages": {
+        "supplierVerification": {
+          "title": "Supplier Verification",
+          "description": "Producer capabilities, documentation and category fit are reviewed before a product enters our sourcing portfolio."
+        },
+        "productionMonitoring": {
+          "title": "Production Monitoring",
+          "description": "We stay close to production partners to confirm that specifications, packaging and agreed quality parameters remain aligned."
+        },
+        "productInspections": {
+          "title": "Product Inspections",
+          "description": "Appearance, format, packaging integrity and key commercial specifications are checked before products move into export flow."
+        },
+        "batchControl": {
+          "title": "Batch Control",
+          "description": "Every commercial batch is linked to production and shipment records so products can be tracked with speed and precision."
+        },
+        "continuousAssessment": {
+          "title": "Continuous Assessment",
+          "description": "Performance is reviewed continuously so that quality, service level and customer expectations stay aligned over the long term."
+        }
+      }
+    },
+    "traceability": {
+      "eyebrow": "Full Traceability",
+      "title": "Complete Product Traceability",
+      "description": "SIMOS maintains documented visibility from producer selection to final customer delivery, helping buyers make informed sourcing decisions with confidence.",
+      "highlights": {
+        "aToZ": "Traceability from A to Z across product flow, batch records and delivery coordination.",
+        "transparency": "Product transparency that supports retailer, importer and food service requirements.",
+        "visibility": "Supply chain visibility for origin, handling, packaging and shipment status.",
+        "compliance": "Regulatory compliance supported by clear documentation and auditable records."
+      },
+      "steps": {
+        "producer": "Producer",
+        "processing": "Processing",
+        "verification": "Quality Verification",
+        "logistics": "Logistics",
+        "customer": "Customer"
+      },
+      "stepDescriptions": {
+        "0": "Approved producers are selected according to category expertise, operational reliability and certification profile.",
+        "1": "Processing and packing data are linked to the product specification, format and commercial batch reference.",
+        "2": "Quality checks and document review confirm alignment before the order moves into export execution.",
+        "3": "Storage, dispatch and delivery coordination are tracked to protect product condition and service consistency.",
+        "4": "Buyers receive dependable product flow supported by documented visibility from origin to destination."
+      }
+    },
+    "standards": {
+      "eyebrow": "International Certifications",
+      "title": "Recognised International Standards",
+      "description": "Depending on category, destination market and production partner, our sourcing network includes facilities operating under recognised certification and assurance schemes.",
+      "note": "Certification availability depends on the selected producer, product category and production site. SIMOS presents these standards as part of its certified sourcing network and partner capability profile.",
+      "cardLabel": "Recognised standard",
+      "officialSource": "Official source",
+      "cards": {
+        "ifs": "IFS Food is widely used to assess food safety, product quality and operational consistency in food manufacturing and packing environments.",
+        "brcgs": "BRCGS standards are recognised by major retailers and importers for structured food safety systems, documented controls and product integrity.",
+        "bioHellas": "BIO Hellas supports certified organic control and verification for businesses operating in line with recognised organic production requirements.",
+        "agrocert": "Agrocert-related schemes support recognised agri-food quality frameworks connected with product identity, agricultural standards and market trust.",
+        "halal": "Halal certification is relevant for buyers requiring approved ingredients, controlled processes and documented compliance for Muslim consumer markets.",
+        "kosher": "Kosher certification supports access to markets where ingredient review, processing controls and religious compliance are commercial priorities."
+      }
+    },
+    "logistics": {
+      "eyebrow": "Quality Through Logistics",
+      "title": "Reliable Delivery, Consistent Quality",
+      "description": "For international dairy and Mediterranean food distribution, logistics is part of quality assurance. Service precision, cold-chain discipline and delivery visibility protect the final buying experience.",
+      "imageAlt": "European food distribution and warehouse logistics",
+      "points": {
+        "edi": "Full EDI integration for efficient order processing and supply chain coordination.",
+        "carton": "Delivery by carton to support flexible replenishment and mixed-order requirements.",
+        "noMoq": "No minimum order quantity for buyers requiring agility across multiple SKUs.",
+        "markets": "Distribution coverage across France, Spain, Belgium and Italy.",
+        "partner": "Logistics execution supported through the Logifrio Madrid partnership.",
+        "daily": "Daily deliveries except Sunday to maintain service continuity.",
+        "service": "High service-level performance focused on accuracy, responsiveness and dependable arrival windows."
+      }
+    },
+    "buyers": {
+      "eyebrow": "Buyer Confidence",
+      "title": "Why International Buyers Choose SIMOS",
+      "description": "Importers, distributors, wholesalers, retailers and Horeca buyers rely on SIMOS for structured sourcing, stable execution and professional market understanding.",
+      "cards": {
+        "certifiedProduction": {
+          "title": "Certified Production",
+          "description": "We work with production partners selected for their quality systems, category know-how and export readiness."
+        },
+        "traceability": {
+          "title": "Traceability",
+          "description": "Documented batch visibility supports accountability from origin through final delivery."
+        },
+        "foodSafety": {
+          "title": "Food Safety",
+          "description": "Food safety expectations remain central in sourcing decisions, product checks and logistics coordination."
+        },
+        "europeanDistribution": {
+          "title": "European Distribution",
+          "description": "Established distribution flows support dependable service across key European markets."
+        },
+        "privateLabel": {
+          "title": "Private Label Expertise",
+          "description": "We support retail and food service customers with specification-led private label development and execution."
+        },
+        "flexibleOrdering": {
+          "title": "Flexible Ordering",
+          "description": "Carton-level delivery, no MOQ flexibility and responsive coordination help buyers move faster."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Looking for a Certified Mediterranean Dairy Partner?",
+      "description": "Speak with our team about sourcing solutions, private label opportunities and certified Mediterranean dairy products.",
+      "contact": "Contact Us"
+    }
   }
 }
