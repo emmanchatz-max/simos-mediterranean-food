@@ -1267,7 +1267,7 @@ export default function QualityPage({ params: { locale } }: PageProps) {
               <div className="flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition-transform duration-300 hover:scale-[1.02]"
+                  className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:scale-[1.02] hover:bg-primary"
                 >
                   {commonT('requestCatalogue')}
                 </Link>
@@ -1535,7 +1535,7 @@ export default function QualityPage({ params: { locale } }: PageProps) {
               <div className="flex flex-col justify-center gap-4 pt-2 sm:flex-row">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition-transform duration-300 hover:scale-[1.02]"
+                  className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-4 text-sm font-semibold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:scale-[1.02] hover:bg-primary"
                 >
                   {commonT('requestCatalogue')}
                 </Link>

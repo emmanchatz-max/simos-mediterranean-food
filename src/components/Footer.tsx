@@ -7,7 +7,7 @@ const Footer = () => {
   const commonT = useTranslations('Contact');
 
   return (
-    <footer className="bg-[#1a1a1a] text-white/80 py-16">
+    <footer className="bg-primary-dark text-white/80 py-16">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
@@ -27,10 +27,10 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-serif text-lg mb-6">{commonT('quickLinks')}</h4>
             <ul className="space-y-4 text-sm">
-              <li><Link href="/" className="hover:text-white transition-colors">{t('home')}</Link></li>
-              <li><Link href="/about" className="hover:text-white transition-colors">{t('about')}</Link></li>
-              <li><Link href="/products" className="hover:text-white transition-colors">{t('products')}</Link></li>
-              <li><Link href="/markets" className="hover:text-white transition-colors">{t('markets')}</Link></li>
+              <li><Link href="/" className="hover:text-primary-light transition-colors">{t('home')}</Link></li>
+              <li><Link href="/about" className="hover:text-primary-light transition-colors">{t('about')}</Link></li>
+              <li><Link href="/products" className="hover:text-primary-light transition-colors">{t('products')}</Link></li>
+              <li><Link href="/markets" className="hover:text-primary-light transition-colors">{t('markets')}</Link></li>
             </ul>
           </div>
 
@@ -38,9 +38,9 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-serif text-lg mb-6">{commonT('services')}</h4>
             <ul className="space-y-4 text-sm">
-              <li><Link href="/private-label" className="hover:text-white transition-colors">{t('privateLabel')}</Link></li>
-              <li><Link href="/logistics" className="hover:text-white transition-colors">{t('logistics')}</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">{t('contact')}</Link></li>
+              <li><Link href="/private-label" className="hover:text-primary-light transition-colors">{t('privateLabel')}</Link></li>
+              <li><Link href="/logistics" className="hover:text-primary-light transition-colors">{t('logistics')}</Link></li>
+              <li><Link href="/contact" className="hover:text-primary-light transition-colors">{t('contact')}</Link></li>
             </ul>
           </div>
 
@@ -78,8 +78,8 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-16 pt-8 flex flex-col md:row justify-between items-center text-xs tracking-widest text-white/40 uppercase">
           <p>© {new Date().getFullYear()} SIMOS {commonT('mediterraneanFood')}. {commonT('allRightsReserved')}</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="hover:text-white transition-colors">{commonT('privacyPolicy')}</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">{commonT('termsOfService')}</Link>
+            <Link href="/privacy" className="hover:text-primary-light transition-colors">{commonT('privacyPolicy')}</Link>
+            <Link href="/terms" className="hover:text-primary-light transition-colors">{commonT('termsOfService')}</Link>
           </div>
         </div>
       </div>

@@ -11,16 +11,16 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
-          DEFAULT: "#4A5D23", // Olive Green
-          light: "#6B7F41",
-          dark: "#2D3A15",
+          DEFAULT: "#1F497D", // Corporate blue
+          light: "#4F81BD",   // Soft Mediterranean blue
+          dark: "#16375B",
         },
         secondary: {
-          DEFAULT: "#F5F2ED", // Warm Neutral
-          dark: "#E8E2D9",
+          DEFAULT: "#F7F9FC",
+          dark: "#E6ECF4",
         },
         accent: {
-          DEFAULT: "#C5A059", // Gold/Honey accent
+          DEFAULT: "#4F81BD",
         },
       },
       fontFamily: {
