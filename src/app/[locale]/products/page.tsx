@@ -34,7 +34,7 @@ const productContent: Record<Locale, ProductPageContent> = {
         title: 'Feta PDO',
         description:
           'Authentic Greek Feta PDO produced from sheep and goat milk, offering the classic taste, texture and regulatory protection expected by international dairy buyers.',
-        image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?auto=format&fit=crop&q=80&w=1200',
+        image: '/images/feta-sea-view.PNG',
         packaging: ['150g Vacuum', '200g Vacuum', '400g Brine', '1kg Brine', '15kg Tin'],
       },
       {
