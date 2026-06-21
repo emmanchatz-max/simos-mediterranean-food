@@ -19,7 +19,7 @@ const Footer = () => {
                 alt="Simos logo"
                 fill
                 sizes="72px"
-                className="object-contain"
+                className="scale-[1.16] object-contain"
               />
             </div>
             <Link href="/" className="inline-block">

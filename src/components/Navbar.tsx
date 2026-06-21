@@ -54,7 +54,7 @@ const Navbar = () => {
               alt="Simos logo"
               fill
               sizes="48px"
-              className="object-contain"
+              className="scale-[1.16] object-contain"
               priority
             />
           </div>
