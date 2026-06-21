@@ -48,13 +48,13 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-white/95 p-1 shadow-lg ring-1 ring-black/5 md:h-11 md:w-11">
+          <div className="relative h-10 w-10 overflow-hidden rounded-xl bg-white/95 p-0.5 shadow-lg ring-1 ring-black/5 md:h-11 md:w-11">
             <Image
               src="/images/logo.PNG"
               alt="Simos logo"
               fill
               sizes="44px"
-              className="object-contain p-1"
+              className="object-contain"
               priority
             />
           </div>
