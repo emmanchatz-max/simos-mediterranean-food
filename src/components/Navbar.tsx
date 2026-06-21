@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <div className="relative h-11 w-11 overflow-hidden rounded-xl bg-white/95 p-0 shadow-lg ring-1 ring-black/5 md:h-12 md:w-12">
+          <div className="relative h-11 w-11 md:h-12 md:w-12">
             <Image
               src="/images/logo.PNG"
               alt="Simos logo"
