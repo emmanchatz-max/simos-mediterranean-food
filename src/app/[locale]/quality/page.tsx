@@ -1283,7 +1283,7 @@ export default function QualityPage({ params: { locale } }: PageProps) {
             <div className="rounded-[2rem] border border-white/10 bg-white/10 p-6 backdrop-blur-sm">
               <div className="relative aspect-[4/3] overflow-hidden rounded-[1.5rem]">
                 <Image
-                  src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=1400"
+                  src="/images/feta.PNG"
                   alt={content.hero.cardImageAlt}
                   fill
                   className="object-cover"

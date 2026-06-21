@@ -20,7 +20,7 @@ const AboutPreview = () => {
             className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image
-              src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=1200"
+              src="/images/feta.PNG"
               alt="Mediterranean Sourcing"
               fill
               className="object-cover"

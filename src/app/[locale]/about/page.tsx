@@ -36,7 +36,7 @@ export default function AboutPage({params: {locale}}: {params: {locale: string}}
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=800"
+                  src="/images/feta.PNG"
                   alt="Quality"
                   fill
                   className="object-cover"
