@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/navigation';
 import { Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import Image from 'next/image';
 
 const Footer = () => {
   const t = useTranslations('Navigation');
@@ -12,6 +13,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-6">
+            <div className="relative h-16 w-16 overflow-hidden rounded-2xl bg-white/95 p-2 shadow-xl ring-1 ring-white/10">
+              <Image
+                src="/images/logo.PNG"
+                alt="Simos logo"
+                fill
+                sizes="64px"
+                className="object-contain p-1"
+              />
+            </div>
             <Link href="/" className="inline-block">
               <span className="text-3xl font-serif font-bold text-white">SIMOS</span>
               <span className="block text-xs uppercase tracking-[0.3em] text-white/50 mt-1">
