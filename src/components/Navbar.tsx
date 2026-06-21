@@ -1,17 +1,16 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/navigation';
-import { Menu, X, Linkedin, Globe } from 'lucide-react';
+import { Menu, X, Linkedin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { locales } from '@/i18n';
 import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const t = useTranslations('Navigation');
   const commonT = useTranslations('Common');
-  const locale = useLocale();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -34,19 +33,24 @@ const Navbar = () => {
     { href: '/contact', label: t('contact') },
   ];
 
+  const isHomePage = pathname === '/';
+  const useSolidHeader = isScrolled || !isHomePage;
+
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'
+        useSolidHeader
+          ? 'bg-white/95 shadow-md backdrop-blur supports-[backdrop-filter]:bg-white/85 py-4'
+          : 'bg-transparent py-6'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>
+          <span className={`text-2xl font-serif font-bold ${useSolidHeader ? 'text-primary' : 'text-white'}`}>
             SIMOS
           </span>
-          <span className={`text-xs uppercase tracking-widest hidden md:block ${isScrolled ? 'text-primary-light' : 'text-white/80'}`}>
+          <span className={`text-xs uppercase tracking-widest hidden md:block ${useSolidHeader ? 'text-primary-light' : 'text-white/80'}`}>
             {commonT('mediterraneanFood')}
           </span>
         </Link>
@@ -58,20 +62,20 @@ const Navbar = () => {
               key={link.href}
               href={link.href}
               className={`text-sm font-medium tracking-wide hover:opacity-70 transition-opacity ${
-                isScrolled ? 'text-foreground' : 'text-white'
+                useSolidHeader ? 'text-foreground' : 'text-white'
               }`}
             >
               {link.label}
             </Link>
           ))}
           
-          <div className="flex items-center space-x-4 border-l pl-8 border-white/20">
-            <LanguageSwitcher isScrolled={isScrolled} />
+          <div className={`flex items-center space-x-4 border-l pl-8 ${useSolidHeader ? 'border-foreground/10' : 'border-white/20'}`}>
+            <LanguageSwitcher isScrolled={useSolidHeader} />
             <a
               href="https://www.linkedin.com/company/simos-mediterranean-food/"
               target="_blank"
               rel="noopener noreferrer"
-              className={`${isScrolled ? 'text-primary' : 'text-white'} hover:opacity-70 transition-opacity`}
+              className={`${useSolidHeader ? 'text-primary' : 'text-white'} hover:opacity-70 transition-opacity`}
             >
               <Linkedin size={20} />
             </a>
@@ -84,9 +88,9 @@ const Navbar = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <X className={isScrolled ? 'text-primary' : 'text-white'} />
+            <X className={useSolidHeader ? 'text-primary' : 'text-white'} />
           ) : (
-            <Menu className={isScrolled ? 'text-primary' : 'text-white'} />
+            <Menu className={useSolidHeader ? 'text-primary' : 'text-white'} />
           )}
         </button>
       </div>
