@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-6">
-            <div className="relative h-[4.5rem] w-[4.5rem]">
+            <div className="relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden">
               <Image
                 src="/images/logo.PNG"
                 alt="Simos logo"
