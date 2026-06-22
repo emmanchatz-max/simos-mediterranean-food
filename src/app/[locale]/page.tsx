@@ -9,7 +9,7 @@ import Certifications from '@/components/Certifications';
 import ContactCTA from '@/components/ContactCTA';
 import {setRequestLocale} from 'next-intl/server';
 
-const homeTitle = 'SIMOS Mediterranean Foods';
+const homeTitle = 'SIMOS Mediterranean Food';
 const homeDescription =
   'Greek Feta, Halloumi, Manouri & Yogurt for International Markets';
 
