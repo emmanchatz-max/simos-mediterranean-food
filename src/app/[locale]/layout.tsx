@@ -12,11 +12,14 @@ export const metadata: Metadata = {
   description: 'Specialists in exporting high-quality Greek and Mediterranean food products across Europe.',
   icons: {
     icon: [
-      { url: '/images/preview.PNG' },
-      { url: '/images/preview.PNG', sizes: '32x32', type: 'image/png' },
+      { url: '/images/favicon.png' },
+      { url: '/images/favicon.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: [
+      { url: '/images/favicon.png' },
     ],
     apple: [
-      { url: '/images/preview.PNG', sizes: '180x180', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
     ],
   },
   manifest: '/site.webmanifest',
