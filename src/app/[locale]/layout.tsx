@@ -8,9 +8,30 @@ import Footer from '@/components/Footer';
 import FaviconDebug from '@/components/FaviconDebug';
 import { Metadata } from 'next';
 
+const socialPreviewTitle = 'SIMOS Mediterranean Food';
+const socialPreviewDescription =
+  'Greek Feta, Halloumi, Manouri & Yogurt for International Markets';
+const socialPreviewImage = '/images/preview.png';
+
 export const metadata: Metadata = {
   title: 'SIMOS Mediterranean Food | Premium Food Export',
   description: 'Specialists in exporting high-quality Greek and Mediterranean food products across Europe.',
+  openGraph: {
+    title: socialPreviewTitle,
+    description: socialPreviewDescription,
+    type: 'website',
+    images: [
+      {
+        url: socialPreviewImage,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialPreviewTitle,
+    description: socialPreviewDescription,
+    images: [socialPreviewImage],
+  },
   icons: {
     icon: [
       { url: '/images/favicon.png', type: 'image/png' },
