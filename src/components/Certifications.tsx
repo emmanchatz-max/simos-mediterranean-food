@@ -4,32 +4,32 @@ const certifications = [
   {
     name: 'IFS',
     imageSrc: '/images/IFS-logo.jpg',
-    imageClassName: 'max-h-[54%] max-w-[68%]',
+    imageClassName: 'max-h-[66%] max-w-[84%]',
   },
   {
     name: 'BRCGS',
     imageSrc: '/images/BRC-Logo-Large.jpg',
-    imageClassName: 'max-h-[52%] max-w-[74%]',
+    imageClassName: 'max-h-[64%] max-w-[88%]',
   },
   {
     name: 'BIO Hellas',
     imageSrc: '/images/biohellas-logo.png',
-    imageClassName: 'max-h-[56%] max-w-[72%]',
+    imageClassName: 'max-h-[68%] max-w-[86%]',
   },
   {
     name: 'Agrocert',
     imageSrc: '/images/agrocert-logo.png',
-    imageClassName: 'max-h-[58%] max-w-[58%]',
+    imageClassName: 'max-h-[70%] max-w-[70%]',
   },
   {
     name: 'Halal Certification',
     imageSrc: '/images/Halal-logo.svg.png',
-    imageClassName: 'max-h-[58%] max-w-[58%]',
+    imageClassName: 'max-h-[70%] max-w-[70%]',
   },
   {
     name: 'Kosher Certification',
     imageSrc: '/images/kosher-logo.jpg',
-    imageClassName: 'max-h-[58%] max-w-[58%]',
+    imageClassName: 'max-h-[70%] max-w-[70%]',
   },
 ] as const;
 
