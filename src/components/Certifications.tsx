@@ -4,32 +4,32 @@ const certifications = [
   {
     name: 'IFS',
     imageSrc: '/images/IFS-logo.jpg',
-    imageClassName: 'max-h-[66%] max-w-[84%]',
+    imageClassName: 'h-[84%] w-[92%]',
   },
   {
     name: 'BRCGS',
     imageSrc: '/images/BRC-Logo-Large.jpg',
-    imageClassName: 'max-h-[64%] max-w-[88%]',
+    imageClassName: 'h-[82%] w-[94%]',
   },
   {
     name: 'BIO Hellas',
     imageSrc: '/images/biohellas-logo.png',
-    imageClassName: 'max-h-[68%] max-w-[86%]',
+    imageClassName: 'h-[88%] w-[92%]',
   },
   {
     name: 'Agrocert',
     imageSrc: '/images/agrocert-logo.png',
-    imageClassName: 'max-h-[70%] max-w-[70%]',
+    imageClassName: 'h-[90%] w-[90%]',
   },
   {
     name: 'Halal Certification',
     imageSrc: '/images/Halal-logo.svg.png',
-    imageClassName: 'max-h-[70%] max-w-[70%]',
+    imageClassName: 'h-[90%] w-[90%]',
   },
   {
     name: 'Kosher Certification',
     imageSrc: '/images/kosher-logo.jpg',
-    imageClassName: 'max-h-[70%] max-w-[70%]',
+    imageClassName: 'h-[90%] w-[90%]',
   },
 ] as const;
 
@@ -47,7 +47,7 @@ const Certifications = () => {
                 <img
                   src={imageSrc}
                   alt={name}
-                  className={`h-auto w-auto object-contain ${imageClassName}`}
+                  className={`object-contain ${imageClassName}`}
                 />
               </div>
             </div>
