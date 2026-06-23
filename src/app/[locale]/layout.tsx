@@ -5,7 +5,6 @@ import {notFound} from 'next/navigation';
 import '@/styles/globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import FaviconDebug from '@/components/FaviconDebug';
 import { Metadata } from 'next';
 
 const socialPreviewTitle = 'SIMOS Mediterranean Food';
@@ -87,7 +86,6 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
-          <FaviconDebug />
         </NextIntlClientProvider>
       </body>
     </html>
