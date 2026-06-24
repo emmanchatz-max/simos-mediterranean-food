@@ -249,5 +249,118 @@
       "description": "Hable con nuestro equipo sobre soluciones de abastecimiento, oportunidades de marca blanca y productos lacteos mediterraneos certificados.",
       "contact": "Contactenos"
     }
+  },
+  "PrivateLabel": {
+    "eyebrow": "Soluciones A Medida",
+    "title": "Capacidades De Marca Blanca",
+    "description": "Ofrecemos servicios integrales de marca blanca para mayoristas y grandes minoristas. Desde la selección de productos hasta el diseño del envase y el control de calidad, le ayudamos a llevar productos mediterráneos auténticos a sus clientes bajo su propia marca.",
+    "cards": {
+      "brandDevelopment": {
+        "title": "Desarrollo De Marca",
+        "description": "Asistencia en envase y etiquetado conforme a la normativa de la UE."
+      },
+      "flexibleSourcing": {
+        "title": "Abastecimiento Flexible",
+        "description": "Acceso directo a productores certificados para diversas categorías de productos."
+      },
+      "qualityAssurance": {
+        "title": "Garantía De Calidad",
+        "description": "Pruebas rigurosas y certificaciones para garantizar los más altos estándares."
+      }
+    }
+  },
+  "Logistics": {
+    "eyebrow": "Eficiencia Y Fiabilidad",
+    "title": "Logística Y Distribución Europea",
+    "description": "Nuestra avanzada red logística garantiza que nuestros productos lleguen a los mercados europeos en condiciones óptimas. Gestionamos toda la cadena de suministro desde la planta de producción en Grecia hasta la puerta de su almacén.",
+    "imageAlt": "Logística",
+    "features": {
+      "temperatureControlled": {
+        "title": "Temperatura Controlada",
+        "description": "Flota moderna que garantiza la integridad de la cadena de frío."
+      },
+      "timelyDelivery": {
+        "title": "Entrega Puntual",
+        "description": "Salidas semanales regulares hacia los principales hubs europeos."
+      },
+      "secureHandling": {
+        "title": "Manipulación Segura",
+        "description": "Paletización estandarizada y embalaje seguro."
+      },
+      "realTimeTracking": {
+        "title": "Seguimiento En Tiempo Real",
+        "description": "Visibilidad completa de su envío de principio a fin."
+      }
+    }
+  },
+  "ContactCTA": {
+    "title": "¿Listo Para Ampliar Su Gama Mediterránea?",
+    "description": "Póngase en contacto hoy mismo con nuestro equipo de exportación para solicitar nuestro catálogo completo y hablar sobre oportunidades de colaboración.",
+    "cta": "Contactar A Nuestro Equipo"
+  },
+  "PrivateLabelPage": {
+    "hero": {
+      "title": "Marca Blanca",
+      "subtitle": "Soluciones Personalizadas Para Su Marca",
+      "imageAlt": "Marca blanca"
+    },
+    "benefits": {
+      "title": "¿Por Qué Elegirnos?",
+      "items": {
+        "certifiedProducers": "Acceso a una red de productores griegos certificados.",
+        "foodSafetyCompliance": "Cumplimiento total de las normas europeas de seguridad alimentaria.",
+        "endToEndManagement": "Gestión integral desde la producción hasta la entrega.",
+        "packagingOptions": "Opciones personalizables de envase y volumen."
+      }
+    },
+    "process": {
+      "title": "Proceso",
+      "steps": {
+        "consultation": {
+          "title": "Consultoría",
+          "description": "Analizamos los requisitos de su marca y la selección de productos."
+        },
+        "sourcing": {
+          "title": "Abastecimiento",
+          "description": "Identificamos a los mejores productores para sus necesidades específicas."
+        },
+        "design": {
+          "title": "Diseño",
+          "description": "Ayudamos con el diseño del envase y el cumplimiento del etiquetado."
+        },
+        "production": {
+          "title": "Producción",
+          "description": "Control de calidad riguroso durante todo el proceso de fabricación."
+        }
+      }
+    }
+  },
+  "LogisticsPage": {
+    "hero": {
+      "title": "Logística",
+      "subtitle": "Cadena De Suministro Europea Fiable",
+      "imageAlt": "Logística"
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "cards": {
+        "coldChainIntegrity": {
+          "title": "Integridad De La Cadena De Frío",
+          "description": "Nos especializamos en logística con temperatura controlada, garantizando que productos refrigerados y congelados como el feta y el yogur griego mantengan su calidad y seguridad durante todo el trayecto."
+        },
+        "regulatoryCompliance": {
+          "title": "Cumplimiento Normativo",
+          "description": "Nuestro equipo gestiona toda la documentación de exportación necesaria y garantiza el pleno cumplimiento de la normativa de la UE sobre seguridad alimentaria y etiquetado para cada país de destino."
+        },
+        "flexibleVolume": {
+          "title": "Volumen Flexible",
+          "description": "Tanto si necesita cargas completas (FTL) como envíos agrupados más pequeños (LTL), ofrecemos soluciones flexibles adaptadas a sus necesidades de inventario."
+        },
+        "strategicHubs": {
+          "title": "Hubs Estratégicos",
+          "description": "Con socios estratégicos en Francia, Italia y España, ofrecemos una distribución local eficiente desde almacenes regionales."
+        }
+      }
+    }
   }
 }

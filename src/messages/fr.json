@@ -249,5 +249,118 @@
       "description": "Parlez avec notre equipe de solutions de sourcing, d opportunites private label et de produits laitiers mediterraneens certifies.",
       "contact": "Nous contacter"
     }
+  },
+  "PrivateLabel": {
+    "eyebrow": "Solutions Sur Mesure",
+    "title": "Capacités De Marque De Distributeur",
+    "description": "Nous proposons des services complets de marque de distributeur pour les grossistes et les grandes enseignes. De la sélection des produits à la conception de l'emballage et au contrôle qualité, nous vous aidons à proposer des produits méditerranéens authentiques sous votre propre marque.",
+    "cards": {
+      "brandDevelopment": {
+        "title": "Développement De Marque",
+        "description": "Assistance pour l'emballage et l'étiquetage conformes à la réglementation de l'UE."
+      },
+      "flexibleSourcing": {
+        "title": "Approvisionnement Flexible",
+        "description": "Accès direct à des producteurs certifiés pour différentes catégories de produits."
+      },
+      "qualityAssurance": {
+        "title": "Assurance Qualité",
+        "description": "Tests rigoureux et certifications pour garantir les normes les plus élevées."
+      }
+    }
+  },
+  "Logistics": {
+    "eyebrow": "Efficacité Et Fiabilité",
+    "title": "Logistique Et Distribution Européenne",
+    "description": "Notre réseau logistique avancé garantit que nos produits atteignent les marchés européens dans des conditions optimales. Nous gérons l'ensemble de la chaîne d'approvisionnement, depuis le site de production en Grèce jusqu'à votre entrepôt.",
+    "imageAlt": "Logistique",
+    "features": {
+      "temperatureControlled": {
+        "title": "Température Contrôlée",
+        "description": "Flotte moderne garantissant l'intégrité de la chaîne du froid."
+      },
+      "timelyDelivery": {
+        "title": "Livraison Ponctuelle",
+        "description": "Départs hebdomadaires réguliers vers les principaux hubs européens."
+      },
+      "secureHandling": {
+        "title": "Manutention Sécurisée",
+        "description": "Palettisation standardisée et emballage sécurisé."
+      },
+      "realTimeTracking": {
+        "title": "Suivi En Temps Réel",
+        "description": "Visibilité complète de votre expédition du début à la fin."
+      }
+    }
+  },
+  "ContactCTA": {
+    "title": "Prêt À Élargir Votre Gamme Méditerranéenne ?",
+    "description": "Contactez dès aujourd'hui notre équipe export pour demander notre catalogue complet et discuter des opportunités de partenariat.",
+    "cta": "Contacter Notre Équipe"
+  },
+  "PrivateLabelPage": {
+    "hero": {
+      "title": "Marque De Distributeur",
+      "subtitle": "Des Solutions Personnalisées Pour Votre Marque",
+      "imageAlt": "Marque de distributeur"
+    },
+    "benefits": {
+      "title": "Pourquoi Nous Choisir ?",
+      "items": {
+        "certifiedProducers": "Accès à un réseau de producteurs grecs certifiés.",
+        "foodSafetyCompliance": "Conformité totale aux normes européennes de sécurité alimentaire.",
+        "endToEndManagement": "Gestion complète de la production à la livraison.",
+        "packagingOptions": "Options d'emballage et de volumes personnalisables."
+      }
+    },
+    "process": {
+      "title": "Processus",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "Nous échangeons sur les besoins de votre marque et la sélection des produits."
+        },
+        "sourcing": {
+          "title": "Approvisionnement",
+          "description": "Nous identifions les meilleurs producteurs selon vos besoins spécifiques."
+        },
+        "design": {
+          "title": "Conception",
+          "description": "Nous accompagnons la conception de l'emballage et la conformité de l'étiquetage."
+        },
+        "production": {
+          "title": "Production",
+          "description": "Contrôle qualité rigoureux pendant tout le processus de fabrication."
+        }
+      }
+    }
+  },
+  "LogisticsPage": {
+    "hero": {
+      "title": "Logistique",
+      "subtitle": "Une Chaîne D'approvisionnement Européenne Fiable",
+      "imageAlt": "Logistique"
+    },
+    "commitment": {
+      "title": "Notre Engagement",
+      "cards": {
+        "coldChainIntegrity": {
+          "title": "Intégrité De La Chaîne Du Froid",
+          "description": "Nous sommes spécialisés dans la logistique à température contrôlée, afin que les produits frais et surgelés comme la feta et le yaourt grec conservent leur qualité et leur sécurité tout au long du transport."
+        },
+        "regulatoryCompliance": {
+          "title": "Conformité Réglementaire",
+          "description": "Notre équipe gère toute la documentation export nécessaire et garantit la conformité complète aux règles européennes de sécurité alimentaire et d'étiquetage pour chaque pays de destination."
+        },
+        "flexibleVolume": {
+          "title": "Volumes Flexibles",
+          "description": "Que vous ayez besoin de chargements complets (FTL) ou d'expéditions groupées plus petites (LTL), nous proposons des solutions flexibles adaptées à vos besoins de stock."
+        },
+        "strategicHubs": {
+          "title": "Hubs Stratégiques",
+          "description": "Avec des partenaires stratégiques en France, en Italie et en Espagne, nous assurons une distribution locale efficace à partir d'entrepôts régionaux."
+        }
+      }
+    }
   }
 }

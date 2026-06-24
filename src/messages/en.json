@@ -249,5 +249,118 @@
       "description": "Speak with our team about sourcing solutions, private label opportunities and certified Mediterranean dairy products.",
       "contact": "Contact Us"
     }
+  },
+  "PrivateLabel": {
+    "eyebrow": "Tailored Solutions",
+    "title": "Private Label Capabilities",
+    "description": "We offer comprehensive private label services for wholesalers and major retailers. From product selection to packaging design and quality control, we help you bring authentic Mediterranean products to your customers under your own brand.",
+    "cards": {
+      "brandDevelopment": {
+        "title": "Brand Development",
+        "description": "Assistance in packaging and labeling compliant with EU regulations."
+      },
+      "flexibleSourcing": {
+        "title": "Flexible Sourcing",
+        "description": "Direct access to certified producers for various product categories."
+      },
+      "qualityAssurance": {
+        "title": "Quality Assurance",
+        "description": "Rigorous testing and certification to ensure the highest standards."
+      }
+    }
+  },
+  "Logistics": {
+    "eyebrow": "Efficiency & Reliability",
+    "title": "Logistics & European Distribution",
+    "description": "Our advanced logistics network ensures that our products reach European markets in optimal condition. We manage the entire supply chain from the production facility in Greece to your warehouse door.",
+    "imageAlt": "Logistics",
+    "features": {
+      "temperatureControlled": {
+        "title": "Temperature Controlled",
+        "description": "Modern fleet ensuring cold chain integrity."
+      },
+      "timelyDelivery": {
+        "title": "Timely Delivery",
+        "description": "Regular weekly departures to major European hubs."
+      },
+      "secureHandling": {
+        "title": "Secure Handling",
+        "description": "Standardized palletizing and secure packaging."
+      },
+      "realTimeTracking": {
+        "title": "Real-time Tracking",
+        "description": "Full visibility of your shipment from start to finish."
+      }
+    }
+  },
+  "ContactCTA": {
+    "title": "Ready to Expand Your Mediterranean Range?",
+    "description": "Connect with our export team today to request our full product catalogue and discuss partnership opportunities.",
+    "cta": "Contact Our Team"
+  },
+  "PrivateLabelPage": {
+    "hero": {
+      "title": "Private Label",
+      "subtitle": "Custom Solutions for Your Brand",
+      "imageAlt": "Private Label"
+    },
+    "benefits": {
+      "title": "Why Choose Us?",
+      "items": {
+        "certifiedProducers": "Access to a network of certified Greek producers.",
+        "foodSafetyCompliance": "Full compliance with European food safety standards.",
+        "endToEndManagement": "End-to-end management from production to delivery.",
+        "packagingOptions": "Customizable packaging and volume options."
+      }
+    },
+    "process": {
+      "title": "Process",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "Discuss your brand requirements and product selection."
+        },
+        "sourcing": {
+          "title": "Sourcing",
+          "description": "Identify the best producers for your specific needs."
+        },
+        "design": {
+          "title": "Design",
+          "description": "Assist in packaging design and labeling compliance."
+        },
+        "production": {
+          "title": "Production",
+          "description": "Rigorous quality control during the manufacturing process."
+        }
+      }
+    }
+  },
+  "LogisticsPage": {
+    "hero": {
+      "title": "Logistics",
+      "subtitle": "Reliable European Supply Chain",
+      "imageAlt": "Logistics"
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "cards": {
+        "coldChainIntegrity": {
+          "title": "Cold Chain Integrity",
+          "description": "We specialize in temperature-controlled logistics, ensuring that chilled and frozen products like Feta and Greek yogurt maintain their quality and safety throughout the journey."
+        },
+        "regulatoryCompliance": {
+          "title": "Regulatory Compliance",
+          "description": "Our team handles all necessary export documentation and ensures full compliance with EU food safety regulations and labeling requirements for each destination country."
+        },
+        "flexibleVolume": {
+          "title": "Flexible Volume",
+          "description": "Whether you require full truckloads (FTL) or smaller groupage shipments (LTL), we provide flexible solutions tailored to your inventory needs."
+        },
+        "strategicHubs": {
+          "title": "Strategic Hubs",
+          "description": "With strategic partners in France, Italy, and Spain, we offer efficient local distribution from regional warehouses."
+        }
+      }
+    }
   }
 }
