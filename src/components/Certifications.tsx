@@ -37,7 +37,7 @@ const Certifications = () => {
   return (
     <section className="bg-white border-y border-foreground/5 py-16">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-6 opacity-40 grayscale transition-all duration-700 hover:grayscale-0 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {certifications.map(({name, imageSrc, imageClassName}) => (
             <div
               key={name}
